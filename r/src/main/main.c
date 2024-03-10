@@ -49,6 +49,11 @@ attribute_hidden void nl_Rdummy(void)
     dgettext("R", "dummy - do not translate");
 }
 #endif
+/* S - Our signal handler that sets whether a signal was sent */
+void shandler (int signum) {
+    //printf ("HEEEY: Signal %d received\n", signum);
+    R_GotSignal = 1;
+}
 
 
 /* The 'real' main() program is in Rmain.c on Unix-alikes, and
@@ -1015,6 +1020,13 @@ void setup_Rmainloop(void)
        If there is an error we pass on to the repl.
        Perhaps it makes more sense to quit gracefully?
     */
+
+    /* S - Our initialize our signal handler */
+    struct sigaction sa;
+    sa.sa_handler = &shandler;
+    sa.sa_flags = SA_RESTART;
+    sigaction(SIGTSTP, &sa, NULL);
+    R_SignalFile = fopen("../receiver.txt", "w");
 
 #ifdef RMIN_ONLY
     /* This is intended to support a minimal build for experimentation. */

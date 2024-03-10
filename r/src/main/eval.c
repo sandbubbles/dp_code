@@ -31,6 +31,7 @@
 #include <R_ext/Print.h>
 #include <errno.h>
 #include <math.h>
+#include<sys/time.h>
 
 static SEXP bcEval(SEXP, SEXP, Rboolean);
 
@@ -922,6 +923,7 @@ SEXP eval(SEXP e, SEXP rho)
     static int evalcount = 0;
 
     R_Visible = TRUE;
+	/* S - Should the signal handling be here rather then in the switch case bellow?*/
 
     /* this is needed even for self-evaluating objects or something like
        'while (TRUE) NULL' will not be interruptable */
@@ -1008,6 +1010,15 @@ SEXP eval(SEXP e, SEXP rho)
     __asm__ ( "fninit" );
 #endif
 
+	/* S - Checking whether we've gotten a signal*/
+	if (R_GotSignal == 1) {
+        struct timeval tv;
+        gettimeofday(&tv,NULL);
+        fprintf(R_SignalFile, "Received at: %lld\n", (((long long)tv.tv_sec)*1000)+(tv.tv_usec/1000));
+        fflush(R_SignalFile);
+        printf("Got\n");
+        R_GotSignal = 0;
+	}
     switch (TYPEOF(e)) {
     case BCODESXP:
 	tmp = bcEval(e, rho, TRUE);
