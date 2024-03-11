@@ -1,0 +1,1 @@
+I need to add script that will run the r benchmark program, finds its pid and gives it as an argument to the sender.cpp executable and terminates both programs after the benchmark ends. The thing is i dont know whaz would be a good benchmarking program in R.

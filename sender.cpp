@@ -27,7 +27,8 @@ int main (int argc, char * argv []) {
     if (outputFile.is_open()) {
         while (!kill(pid, SIGTSTP)) {
             outputFile << "Sent at: " << timeSinceEpochMillisec() << std::endl;
-            sleep(2);
+            //sleep(1); 
+            usleep(20000); //in microseconds
         }
     }
 
