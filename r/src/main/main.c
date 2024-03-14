@@ -28,6 +28,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/time.h>
 
 #define __MAIN__
 #define R_USE_SIGNALS 1
@@ -1024,9 +1025,29 @@ void setup_Rmainloop(void)
     /* S - Our initialize our signal handler */
     struct sigaction sa;
     sa.sa_handler = &shandler;
-    sa.sa_flags = SA_RESTART;
-    sigaction(SIGTSTP, &sa, NULL);
+    sigaction(SIGALRM, &sa, NULL);
+
     R_SignalFile = fopen("../receiver.txt", "w");
+
+    /* S - I cannot find in makefile where I could disable running R code, or
+           whether I am even allowed to do that (I mean - does it build some
+           nescessary components?). So anyways, the value 300 000 seems to be
+           mostly okay - the make command succeeds without alarm that causes 
+           it to fail.
+    */
+    struct itimerval timer;
+    timer.it_value.tv_sec = 0;
+    timer.it_value.tv_usec = 300000;
+    timer.it_interval.tv_sec = 0;
+    timer.it_interval.tv_usec = 0;
+    struct timeval tv;
+    gettimeofday(&tv,NULL);
+    R_LastSignalTime = (((long long)tv.tv_sec)*1000)+(tv.tv_usec/1000);
+    if (setitimer(ITIMER_REAL, &timer, NULL) == -1) {
+        printf("AAAAAAA");
+        perror("seting timer");
+        exit(EXIT_FAILURE);
+    }
 
 #ifdef RMIN_ONLY
     /* This is intended to support a minimal build for experimentation. */

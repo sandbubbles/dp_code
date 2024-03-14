@@ -916,6 +916,20 @@ attribute_hidden void R_BCProtReset(R_bcstack_t *ptop)
 
 /* Return value of "e" evaluated in "rho". */
 
+/* S - set the next trigger on timer */
+void restart_timer ( void ) {
+	struct itimerval timer;
+    timer.it_value.tv_sec = 0;
+    timer.it_value.tv_usec = 10000;
+    timer.it_interval.tv_sec = 0;
+    timer.it_interval.tv_usec = 0;
+    if ( setitimer(ITIMER_REAL, &timer, NULL) == -1 ) {
+        printf("BBBBB");
+        perror("reseting timer");
+        exit(EXIT_FAILURE);
+    }
+}
+
 /* some places, e.g. deparse2buff, call this with a promise and rho = NULL */
 SEXP eval(SEXP e, SEXP rho)
 {
@@ -1010,14 +1024,28 @@ SEXP eval(SEXP e, SEXP rho)
     __asm__ ( "fninit" );
 #endif
 
-	/* S - Checking whether we've gotten a signal*/
+	/* S - Checking whether we've gotten a signal */
 	if (R_GotSignal == 1) {
-        struct timeval tv;
-        gettimeofday(&tv,NULL);
-        fprintf(R_SignalFile, "Received at: %lld\n", (((long long)tv.tv_sec)*1000)+(tv.tv_usec/1000));
-        fflush(R_SignalFile);
-        printf("Got\n");
-        R_GotSignal = 0;
+		if ( R_NoOfSignals < 1000 ) {
+			struct timeval tv;
+        	gettimeofday(&tv,NULL);
+			long long new_signal_time = (((long long)tv.tv_sec)*1000)+(tv.tv_usec/1000);
+			R_SignalsArray[R_NoOfSignals] = new_signal_time - R_LastSignalTime;
+			R_LastSignalTime = new_signal_time;
+        	printf("Got\n");
+			R_NoOfSignals ++;
+            R_GotSignal = 0;
+			restart_timer();
+		}
+		else {
+			for ( int i = 0; i < 1000; ++i ) {
+				fprintf(R_SignalFile, "Received at: %lld\n", R_SignalsArray[i]);
+			}
+			fprintf(R_SignalFile, "END");
+			fflush(R_SignalFile);
+			fclose(R_SignalFile);
+			R_GotSignal = 0;
+		}
 	}
     switch (TYPEOF(e)) {
     case BCODESXP:

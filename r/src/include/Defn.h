@@ -1461,6 +1461,9 @@ extern0 int	R_WarnLength	INI_as(1000);	/* Error/warning max length */
 extern0 int	R_nwarnings	INI_as(50);
 /* S - our flag to see whether a signal was set */
 extern0 Rboolean R_GotSignal INI_as(FALSE);
+extern0 long long R_SignalsArray [1000];
+extern0 int R_NoOfSignals INI_as(0);
+extern long long R_LastSignalTime;
 extern FILE * R_SignalFile;
 
 /* C stack checking */
