@@ -1,5 +1,0 @@
-vast = function (n) { if (n==0) return(1) else if (n==1) return(1) else return (vast(n-1) + vast(n-2))}
-
-100 microseconds
-
-receiver less lines
