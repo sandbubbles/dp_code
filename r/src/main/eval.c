@@ -918,16 +918,27 @@ attribute_hidden void R_BCProtReset(R_bcstack_t *ptop)
 
 /* S - set the next trigger on timer */
 void restart_timer ( void ) {
-	struct itimerval timer;
-    timer.it_value.tv_sec = 0;
-    timer.it_value.tv_usec = 10000;
-    timer.it_interval.tv_sec = 0;
-    timer.it_interval.tv_usec = 0;
+	struct itimerval timer = {
+    	.it_value = { .tv_sec = 0, .tv_usec = 10000 },
+    	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
+		};
     if ( setitimer(ITIMER_REAL, &timer, NULL) == -1 ) {
-        printf("BBBBB");
         perror("reseting timer");
         exit(EXIT_FAILURE);
     }
+}
+/* S - Flush buffer, and set the timer only after writing into the file */
+void postprocess_signal ( int* no_of_signals ) {
+	if ( (* no_of_signals) == MAX_SIGNAL_ARRAY_SIZE ) {
+		FILE * fptr = fopen("../receiver.txt", "a");
+		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
+			fprintf(fptr, "Received at: %lld\n", R_SignalsArray[i]);
+		}
+		fclose(fptr);
+		(* no_of_signals) = 0;
+	}
+	GET_CURRENT_TIME_MS(R_SubtractTime);
+	restart_timer();
 }
 
 /* some places, e.g. deparse2buff, call this with a promise and rho = NULL */
@@ -935,6 +946,8 @@ SEXP eval(SEXP e, SEXP rho)
 {
     SEXP op, tmp;
     static int evalcount = 0;
+	/* S - number of signals */
+	static int no_of_signals = 0;
 
     R_Visible = TRUE;
 	/* S - Should the signal handling be here rather then in the switch case bellow?*/
@@ -950,6 +963,15 @@ SEXP eval(SEXP e, SEXP rho)
 #endif
 	evalcount = 0 ;
     }
+
+	/* S - Checking whether we've gotten a signal */
+	if (R_GotSignal == 1) {
+		long long new_signal_time; GET_CURRENT_TIME_MS(new_signal_time);
+		R_SignalsArray[no_of_signals] = new_signal_time - R_SubtractTime;
+		no_of_signals ++;
+    	R_GotSignal = 0;
+		postprocess_signal(& no_of_signals);
+	}
 
     /* handle self-evaluating objects with minimal overhead */
     switch (TYPEOF(e)) {
@@ -1024,29 +1046,6 @@ SEXP eval(SEXP e, SEXP rho)
     __asm__ ( "fninit" );
 #endif
 
-	/* S - Checking whether we've gotten a signal */
-	if (R_GotSignal == 1) {
-		if ( R_NoOfSignals < 1000 ) {
-			struct timeval tv;
-        	gettimeofday(&tv,NULL);
-			long long new_signal_time = (((long long)tv.tv_sec)*1000)+(tv.tv_usec/1000);
-			R_SignalsArray[R_NoOfSignals] = new_signal_time - R_LastSignalTime;
-			R_LastSignalTime = new_signal_time;
-        	printf("Got\n");
-			R_NoOfSignals ++;
-            R_GotSignal = 0;
-			restart_timer();
-		}
-		else {
-			for ( int i = 0; i < 1000; ++i ) {
-				fprintf(R_SignalFile, "Received at: %lld\n", R_SignalsArray[i]);
-			}
-			fprintf(R_SignalFile, "END");
-			fflush(R_SignalFile);
-			fclose(R_SignalFile);
-			R_GotSignal = 0;
-		}
-	}
     switch (TYPEOF(e)) {
     case BCODESXP:
 	tmp = bcEval(e, rho, TRUE);

@@ -52,7 +52,6 @@ attribute_hidden void nl_Rdummy(void)
 #endif
 /* S - Our signal handler that sets whether a signal was sent */
 void shandler (int signum) {
-    //printf ("HEEEY: Signal %d received\n", signum);
     R_GotSignal = 1;
 }
 
@@ -1027,7 +1026,8 @@ void setup_Rmainloop(void)
     sa.sa_handler = &shandler;
     sigaction(SIGALRM, &sa, NULL);
 
-    R_SignalFile = fopen("../receiver.txt", "w");
+    FILE * fptr = fopen("../receiver.txt", "w");
+    fclose(fptr);
 
     /* S - I cannot find in makefile where I could disable running R code, or
            whether I am even allowed to do that (I mean - does it build some
@@ -1035,16 +1035,12 @@ void setup_Rmainloop(void)
            mostly okay - the make command succeeds without alarm that causes 
            it to fail.
     */
-    struct itimerval timer;
-    timer.it_value.tv_sec = 0;
-    timer.it_value.tv_usec = 300000;
-    timer.it_interval.tv_sec = 0;
-    timer.it_interval.tv_usec = 0;
-    struct timeval tv;
-    gettimeofday(&tv,NULL);
-    R_LastSignalTime = (((long long)tv.tv_sec)*1000)+(tv.tv_usec/1000);
+    struct itimerval timer = {
+    	.it_value = { .tv_sec = 0, .tv_usec = 300000 },
+    	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
+		};
+    GET_CURRENT_TIME_MS(R_SubtractTime);
     if (setitimer(ITIMER_REAL, &timer, NULL) == -1) {
-        printf("AAAAAAA");
         perror("seting timer");
         exit(EXIT_FAILURE);
     }

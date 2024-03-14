@@ -263,6 +263,14 @@ typedef union { VECTOR_SEXPREC s; double align; } SEXPREC_ALIGN;
 # define MARK_NOT_MUTABLE(x) SET_NAMED(x, NAMEDMAX)
 #endif
 
+/* S - Macro to get time since beginig of epoch or whatever */
+#define GET_CURRENT_TIME_MS(value) \
+    do { \
+        struct timeval tv; \
+        gettimeofday(&tv, NULL); \
+        (value) = (((long long)tv.tv_sec) * 1000) + (tv.tv_usec / 1000); \
+    } while(0)
+
 /* To make complex assignments a bit safer, in particular with
    reference counting, a bit is set on the LHS binding cell or symbol
    at the beginning of the complex assignment process and unset at the
@@ -1461,10 +1469,9 @@ extern0 int	R_WarnLength	INI_as(1000);	/* Error/warning max length */
 extern0 int	R_nwarnings	INI_as(50);
 /* S - our flag to see whether a signal was set */
 extern0 Rboolean R_GotSignal INI_as(FALSE);
-extern0 long long R_SignalsArray [1000];
-extern0 int R_NoOfSignals INI_as(0);
-extern long long R_LastSignalTime;
-extern FILE * R_SignalFile;
+#define MAX_SIGNAL_ARRAY_SIZE 1000
+extern0 long long R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
+extern long long R_SubtractTime;
 
 /* C stack checking */
 extern uintptr_t R_CStackLimit	INI_as((uintptr_t)-1);	/* C stack limit */
