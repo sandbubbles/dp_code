@@ -1025,17 +1025,17 @@ void setup_Rmainloop(void)
         /* S - Our initialize our signal handler */
         struct sigaction sa;
         sa.sa_handler = &shandler;
-        sigaction(SIGALRM, &sa, NULL);
+        sigaction(SIGVTALRM, &sa, NULL);
 
         FILE * fptr = fopen("../receiver.txt", "w");
         fclose(fptr);
 
         struct itimerval timer = {
-        	.it_value = { .tv_sec = 0, .tv_usec = 500000 },
+        	.it_value = { .tv_sec = 0, .tv_usec = SIGNAL_INTERVAL },
         	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
 	    	};
         GET_CURRENT_TIME_MS(R_SubtractTime);
-        if (setitimer(ITIMER_REAL, &timer, NULL) == -1) {
+        if (setitimer(ITIMER_VIRTUAL, &timer, NULL) == -1) {
             perror("seting timer");
             exit(EXIT_FAILURE);
         }

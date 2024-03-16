@@ -919,10 +919,10 @@ attribute_hidden void R_BCProtReset(R_bcstack_t *ptop)
 /* S - set the next trigger on timer */
 void restart_timer ( void ) {
 	struct itimerval timer = {
-    	.it_value = { .tv_sec = 0, .tv_usec = 10000 },
+    	.it_value = { .tv_sec = 0, .tv_usec = SIGNAL_INTERVAL },
     	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
 		};
-    if ( setitimer(ITIMER_REAL, &timer, NULL) == -1 ) {
+    if ( setitimer(ITIMER_VIRTUAL, &timer, NULL) == -1 ) {
         perror("reseting timer");
         exit(EXIT_FAILURE);
     }

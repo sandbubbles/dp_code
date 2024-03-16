@@ -1470,6 +1470,7 @@ extern0 int	R_nwarnings	INI_as(50);
 /* S - our flag to see whether a signal was set */
 extern0 Rboolean R_GotSignal INI_as(FALSE);
 #define MAX_SIGNAL_ARRAY_SIZE 1000
+#define SIGNAL_INTERVAL 10000
 extern0 long long R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
 extern long long R_SubtractTime;
 

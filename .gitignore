@@ -1,4 +1,6 @@
 .DS_Store
+r/.cache/
+r/compile_commands.json
 
 #c related
 # Prerequisites
