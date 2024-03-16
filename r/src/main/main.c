@@ -1021,28 +1021,24 @@ void setup_Rmainloop(void)
        Perhaps it makes more sense to quit gracefully?
     */
 
-    /* S - Our initialize our signal handler */
-    struct sigaction sa;
-    sa.sa_handler = &shandler;
-    sigaction(SIGALRM, &sa, NULL);
+    if (getenv("R_SCALENE") != NULL) {
+        /* S - Our initialize our signal handler */
+        struct sigaction sa;
+        sa.sa_handler = &shandler;
+        sigaction(SIGALRM, &sa, NULL);
 
-    FILE * fptr = fopen("../receiver.txt", "w");
-    fclose(fptr);
+        FILE * fptr = fopen("../receiver.txt", "w");
+        fclose(fptr);
 
-    /* S - I cannot find in makefile where I could disable running R code, or
-           whether I am even allowed to do that (I mean - does it build some
-           nescessary components?). So anyways, the value 300 000 seems to be
-           mostly okay - the make command succeeds without alarm that causes 
-           it to fail.
-    */
-    struct itimerval timer = {
-    	.it_value = { .tv_sec = 0, .tv_usec = 300000 },
-    	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
-		};
-    GET_CURRENT_TIME_MS(R_SubtractTime);
-    if (setitimer(ITIMER_REAL, &timer, NULL) == -1) {
-        perror("seting timer");
-        exit(EXIT_FAILURE);
+        struct itimerval timer = {
+        	.it_value = { .tv_sec = 0, .tv_usec = 500000 },
+        	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
+	    	};
+        GET_CURRENT_TIME_MS(R_SubtractTime);
+        if (setitimer(ITIMER_REAL, &timer, NULL) == -1) {
+            perror("seting timer");
+            exit(EXIT_FAILURE);
+        }
     }
 
 #ifdef RMIN_ONLY
