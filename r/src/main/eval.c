@@ -919,7 +919,7 @@ attribute_hidden void R_BCProtReset(R_bcstack_t *ptop)
 
 
 
-/* S - Helper function for my hash map */
+/* S - Helper functions for my hash map */
 void add_map_entry(SEXP key, counter_struct value) {
 	map_entry_struct *s;
 	HASH_FIND_PTR(R_LANGSXPMap, key, s);
@@ -930,6 +930,7 @@ void add_map_entry(SEXP key, counter_struct value) {
 	}
 	s->value = value;
 }
+
 map_entry_struct *find_map_entry(SEXP key) {
 	map_entry_struct *s;
 	HASH_FIND_PTR(R_LANGSXPMap, &key, s);
@@ -946,16 +947,25 @@ void delete_map() {
     }
 }
 
-void print_map_entries(FILE * file) {
+void print_map_entries() {
+	FILE * file = fopen("../receiver.txt", "a");
 	map_entry_struct *s;
 
 	for (s = R_LANGSXPMap; s != NULL; s = (map_entry_struct*)(s->hh.next)) {
 		fprintf(file, "SYMSXP %s\n", CHAR(PRINTNAME(CAR(s->key))));
 		fprintf(file, "r_counter %d, c_counter %d \n", s->value.r_counter, s->value.c_counter);
-		fprintf(file, "-------------------\n");
+		fprintf(file, "--------------------------------\n");
 	}
-	fprintf(file, "======================================\n");
+	fclose(file);
 }
+
+/* S - at exit */
+
+void deal_with_map () {
+	print_map_entries();
+	delete_map();
+}
+
 /* S - set the next trigger on timer */
 void restart_timer ( void ) {
 	struct itimerval timer = {
@@ -972,9 +982,14 @@ void postprocess_signal ( int* no_of_signals ) {
 	if ( (* no_of_signals) == MAX_SIGNAL_ARRAY_SIZE ) {
 		FILE * fptr = fopen("../receiver.txt", "a");
 		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
-			fprintf(fptr, "Received at: %lld\n", R_SignalsArray[i]);
+			fprintf(fptr, "elapsed: %d, ", R_SignalsArray[i].time);
+			if(R_SignalsArray[i].sexp != NULL){
+				fprintf(fptr, "sexp: %s  \n", CHAR(PRINTNAME(CAR(R_SignalsArray[i].sexp))));
+			}
+			else{
+				fprintf(fptr, "sexp: NULL \n");
+			}
 		}
-		print_map_entries(fptr);
 
 		fclose(fptr);
 		(* no_of_signals) = 0;
@@ -982,6 +997,7 @@ void postprocess_signal ( int* no_of_signals ) {
 	GET_CURRENT_TIME_MS(R_SubtractTime);
 	restart_timer();
 }
+
 /* S - Initialze the map with all LANGSXPs in a given function */
 void make_map_from_AST (SEXP e) {
 	switch (TYPEOF(e)) {
@@ -1001,6 +1017,7 @@ void make_map_from_AST (SEXP e) {
 			break;
 	}
 }
+
 map_entry_struct * get_current_entry () {
 	RCNTXT *c;
 
@@ -1041,15 +1058,13 @@ SEXP eval(SEXP e, SEXP rho)
 	/* S - Checking whether we've gotten a signal */
 	if (R_GotSignal == 1) {
 		long long new_signal_time; GET_CURRENT_TIME_MS(new_signal_time);
-		R_SignalsArray[no_of_signals] = new_signal_time - R_SubtractTime;
-		//R_inspect(e);
-		//printf("%lld \n -------------------- \n ", R_SignalsArray[no_of_signals]);
-		// asign to counter
-		// function that walks fromm global context onto next and always checks the call if it is langsxp
+		R_SignalsArray[no_of_signals].time = new_signal_time - R_SubtractTime;
+		R_SignalsArray[no_of_signals].sexp = NULL;
 		map_entry_struct *s = get_current_entry();
 		if(s != NULL){
 			s->value.r_counter += SIGNAL_INTERVAL / 1000;
 			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
+			R_SignalsArray[no_of_signals].sexp = s->key;
 		}
 		no_of_signals ++;
     	R_GotSignal = 0;
@@ -1195,6 +1210,7 @@ SEXP eval(SEXP e, SEXP rho)
 			Then start the timer of signals
 		*/
 		if (strcmp(CHAR(PRINTNAME(CAR(e))), "..my_profile.." ) == 0 && getenv("R_SCALENE") != NULL ) {
+			atexit(deal_with_map);
 			make_map_from_AST(BODY(findFun(CAR(e), rho)));
 			GET_CURRENT_TIME_MS(R_SubtractTime);
 			restart_timer();

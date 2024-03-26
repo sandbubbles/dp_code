@@ -1467,15 +1467,21 @@ extern0 Rboolean R_CBoundsCheck	INI_as(FALSE);	/* options(CBoundsCheck) */
 extern0 MATPROD_TYPE R_Matprod	INI_as(MATPROD_DEFAULT);  /* options(matprod) */
 extern0 int	R_WarnLength	INI_as(1000);	/* Error/warning max length */
 extern0 int	R_nwarnings	INI_as(50);
+
 /* S - our flag to see whether a signal was set */
+typedef struct {
+    SEXP sexp;
+    int time;
+} signal_struct;
+
 extern0 Rboolean R_GotSignal INI_as(FALSE);
 #define MAX_SIGNAL_ARRAY_SIZE 10
 #define SIGNAL_INTERVAL 10000
-extern0 long long R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
+extern0 signal_struct R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
 extern long long R_SubtractTime;
 
-#include "uthash.h"
 /* S - my hash map */
+#include "uthash.h"
 typedef struct {
     unsigned int r_counter;
     unsigned int c_counter;
