@@ -18,6 +18,9 @@
  *  https://www.R-project.org/Licenses/
  */
 
+/* S - for R_inspect and header only hashmap*/
+#include "Rinternals.h"
+#include <stdio.h>
 
 #ifdef HAVE_CONFIG_H
 # include <config.h>
@@ -914,8 +917,45 @@ attribute_hidden void R_BCProtReset(R_bcstack_t *ptop)
 	    DECLNK_stack(ibcl_oldptop);			\
     } while (0)
 
-/* Return value of "e" evaluated in "rho". */
 
+
+/* S - Helper function for my hash map */
+void add_map_entry(SEXP key, counter_struct value) {
+	map_entry_struct *s;
+	HASH_FIND_PTR(R_LANGSXPMap, key, s);
+	if (s == NULL) {
+		s = (map_entry_struct*)malloc(sizeof *s);
+		s->key = key;
+		HASH_ADD_PTR(R_LANGSXPMap, key, s);
+	}
+	s->value = value;
+}
+map_entry_struct *find_map_entry(SEXP key) {
+	map_entry_struct *s;
+	HASH_FIND_PTR(R_LANGSXPMap, &key, s);
+	return s;
+}
+
+void delete_map() {
+    map_entry_struct *current;
+    map_entry_struct *tmp;
+
+    HASH_ITER(hh, R_LANGSXPMap, current, tmp) {
+        HASH_DEL(R_LANGSXPMap, current);  /* delete it (users advances to next) */
+        free(current);             /* free it */
+    }
+}
+
+void print_map_entries(FILE * file) {
+	map_entry_struct *s;
+
+	for (s = R_LANGSXPMap; s != NULL; s = (map_entry_struct*)(s->hh.next)) {
+		fprintf(file, "SYMSXP %s\n", CHAR(PRINTNAME(CAR(s->key))));
+		fprintf(file, "r_counter %d, c_counter %d \n", s->value.r_counter, s->value.c_counter);
+		fprintf(file, "-------------------\n");
+	}
+	fprintf(file, "======================================\n");
+}
 /* S - set the next trigger on timer */
 void restart_timer ( void ) {
 	struct itimerval timer = {
@@ -934,13 +974,47 @@ void postprocess_signal ( int* no_of_signals ) {
 		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
 			fprintf(fptr, "Received at: %lld\n", R_SignalsArray[i]);
 		}
+		print_map_entries(fptr);
+
 		fclose(fptr);
 		(* no_of_signals) = 0;
 	}
 	GET_CURRENT_TIME_MS(R_SubtractTime);
 	restart_timer();
 }
+/* S - Initialze the map with all LANGSXPs in a given function */
+void make_map_from_AST (SEXP e) {
+	switch (TYPEOF(e)) {
+		case LANGSXP:
+			counter_struct value = {.r_counter = 0, .c_counter = 0};
+			add_map_entry(e, value);
+			make_map_from_AST(CAR(e)); // Function name, so, hm, is it really nescessary to walk?
+			make_map_from_AST(CDR(e));
+			break;
+		case LISTSXP:
+			while (e != R_NilValue) {
+				make_map_from_AST(CAR(e));
+				e = CDR(e);
+			}
+			break;
+		default:
+			break;
+	}
+}
+map_entry_struct * get_current_entry () {
+	RCNTXT *c;
 
+	for (c = R_GlobalContext ;
+	 	 c != NULL && c->callflag != CTXT_TOPLEVEL;
+	     c = c->nextcontext){
+		map_entry_struct *s = find_map_entry(c->call);
+		if (s != NULL){
+			return s;
+		}
+	 }
+	return NULL;
+}
+/* Return value of "e" evaluated in "rho". */
 /* some places, e.g. deparse2buff, call this with a promise and rho = NULL */
 SEXP eval(SEXP e, SEXP rho)
 {
@@ -968,11 +1042,19 @@ SEXP eval(SEXP e, SEXP rho)
 	if (R_GotSignal == 1) {
 		long long new_signal_time; GET_CURRENT_TIME_MS(new_signal_time);
 		R_SignalsArray[no_of_signals] = new_signal_time - R_SubtractTime;
+		//R_inspect(e);
+		//printf("%lld \n -------------------- \n ", R_SignalsArray[no_of_signals]);
+		// asign to counter
+		// function that walks fromm global context onto next and always checks the call if it is langsxp
+		map_entry_struct *s = get_current_entry();
+		if(s != NULL){
+			s->value.r_counter += SIGNAL_INTERVAL / 1000;
+			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
+		}
 		no_of_signals ++;
     	R_GotSignal = 0;
 		postprocess_signal(& no_of_signals);
 	}
-
     /* handle self-evaluating objects with minimal overhead */
     switch (TYPEOF(e)) {
     case NILSXP:
@@ -1108,6 +1190,15 @@ SEXP eval(SEXP e, SEXP rho)
 	break;
     case LANGSXP:
 	if (TYPEOF(CAR(e)) == SYMSXP) {
+		/* S - check whether this is my function to profile.
+			If it is, create a hashmap of all the LANGSXP in the function
+			Then start the timer of signals
+		*/
+		if (strcmp(CHAR(PRINTNAME(CAR(e))), "..my_profile.." ) == 0 && getenv("R_SCALENE") != NULL ) {
+			make_map_from_AST(BODY(findFun(CAR(e), rho)));
+			GET_CURRENT_TIME_MS(R_SubtractTime);
+			restart_timer();
+		}
 	    /* This will throw an error if the function is not found */
 	    SEXP ecall = e;
 

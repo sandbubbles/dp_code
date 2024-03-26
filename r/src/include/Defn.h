@@ -1469,10 +1469,25 @@ extern0 int	R_WarnLength	INI_as(1000);	/* Error/warning max length */
 extern0 int	R_nwarnings	INI_as(50);
 /* S - our flag to see whether a signal was set */
 extern0 Rboolean R_GotSignal INI_as(FALSE);
-#define MAX_SIGNAL_ARRAY_SIZE 1000
+#define MAX_SIGNAL_ARRAY_SIZE 10
 #define SIGNAL_INTERVAL 10000
 extern0 long long R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
 extern long long R_SubtractTime;
+
+#include "uthash.h"
+/* S - my hash map */
+typedef struct {
+    unsigned int r_counter;
+    unsigned int c_counter;
+} counter_struct;
+
+typedef struct {
+    SEXP key;
+    counter_struct value;
+    UT_hash_handle hh;
+} map_entry_struct;
+
+extern0 map_entry_struct* R_LANGSXPMap INI_as(NULL);
 
 /* C stack checking */
 extern uintptr_t R_CStackLimit	INI_as((uintptr_t)-1);	/* C stack limit */

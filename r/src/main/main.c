@@ -1029,16 +1029,6 @@ void setup_Rmainloop(void)
 
         FILE * fptr = fopen("../receiver.txt", "w");
         fclose(fptr);
-
-        struct itimerval timer = {
-        	.it_value = { .tv_sec = 0, .tv_usec = SIGNAL_INTERVAL },
-        	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
-	    	};
-        GET_CURRENT_TIME_MS(R_SubtractTime);
-        if (setitimer(ITIMER_VIRTUAL, &timer, NULL) == -1) {
-            perror("seting timer");
-            exit(EXIT_FAILURE);
-        }
     }
 
 #ifdef RMIN_ONLY
