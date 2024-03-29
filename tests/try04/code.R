@@ -1,10 +1,11 @@
+# Have something like that for when I am figuring out the signal interval, basically only R
 
 foo <- function ( n ) {
     return (1 + n) * 3 * 4 
 }
 ..my_profile.. <- function () {
     print("f")
-    3 +2
+    3 + 2
     { 
         6 * 3
         i <- 1 
