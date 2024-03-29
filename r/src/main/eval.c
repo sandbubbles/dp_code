@@ -917,9 +917,43 @@ attribute_hidden void R_BCProtReset(R_bcstack_t *ptop)
 	    DECLNK_stack(ibcl_oldptop);			\
     } while (0)
 
+/* S - Macro to get time since beginig of epoch or whatever */
+#define GET_CURRENT_TIME_MS(value) \
+    do { \
+        struct timeval tv; \
+        gettimeofday(&tv, NULL); \
+        (value) = (((long long)tv.tv_sec) * 1000) + (tv.tv_usec / 1000); \
+    } while(0)
+long long R_SubtractTime;
 
+/* S - Macros, to be experimented with */
+#define MAX_SIGNAL_ARRAY_SIZE 10
+#define SIGNAL_INTERVAL 10000
+
+typedef struct {
+    SEXP sexp;
+    int time;
+} signal_struct;
+signal_struct R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
+
+/* S - my hash map */
+#include "uthash.h"
+typedef struct {
+    unsigned int r_counter;
+    unsigned int c_counter;
+} counter_struct;
+
+typedef struct {
+    SEXP key;
+    counter_struct value;
+    UT_hash_handle hh;
+} map_entry_struct;
+
+map_entry_struct* R_LANGSXPMap = NULL;
 
 /* S - Helper functions for my hash map */
+
+/* S - Adds an item if it is not already present, otherwise only updates the keys value */
 void add_map_entry(SEXP key, counter_struct value) {
 	map_entry_struct *s;
 	HASH_FIND_PTR(R_LANGSXPMap, key, s);
@@ -931,42 +965,46 @@ void add_map_entry(SEXP key, counter_struct value) {
 	s->value = value;
 }
 
+/* S - Returns NULL if it isn't present */
 map_entry_struct *find_map_entry(SEXP key) {
 	map_entry_struct *s;
 	HASH_FIND_PTR(R_LANGSXPMap, &key, s);
 	return s;
 }
 
+/* S - Traverses the map and frees all entries */
 void delete_map() {
     map_entry_struct *current;
     map_entry_struct *tmp;
 
     HASH_ITER(hh, R_LANGSXPMap, current, tmp) {
         HASH_DEL(R_LANGSXPMap, current);  /* delete it (users advances to next) */
-        free(current);             /* free it */
+        free(current);                    /* free it */
     }
 }
 
+/* S - Prints the SYMSXP of the LANGSXP and the counter values */
 void print_map_entries() {
 	FILE * file = fopen("../receiver.txt", "a");
 	map_entry_struct *s;
 
+	fprintf(file, "--------------------------------\n");
 	for (s = R_LANGSXPMap; s != NULL; s = (map_entry_struct*)(s->hh.next)) {
 		fprintf(file, "SYMSXP %s\n", CHAR(PRINTNAME(CAR(s->key))));
 		fprintf(file, "r_counter %d, c_counter %d \n", s->value.r_counter, s->value.c_counter);
 		fprintf(file, "--------------------------------\n");
 	}
+
 	fclose(file);
 }
 
-/* S - at exit */
-
+/* S - Function that is called at the succesfull end of a program */
 void deal_with_map () {
 	print_map_entries();
 	delete_map();
 }
 
-/* S - set the next trigger on timer */
+/* S - Set the next trigger on timer */
 void restart_timer ( void ) {
 	struct itimerval timer = {
     	.it_value = { .tv_sec = 0, .tv_usec = SIGNAL_INTERVAL },
@@ -977,6 +1015,7 @@ void restart_timer ( void ) {
         exit(EXIT_FAILURE);
     }
 }
+
 /* S - Flush buffer, and set the timer only after writing into the file */
 void postprocess_signal ( int* no_of_signals ) {
 	if ( (* no_of_signals) == MAX_SIGNAL_ARRAY_SIZE ) {
@@ -1001,12 +1040,13 @@ void postprocess_signal ( int* no_of_signals ) {
 /* S - Initialze the map with all LANGSXPs in a given function */
 void make_map_from_AST (SEXP e) {
 	switch (TYPEOF(e)) {
-		case LANGSXP:
+		case LANGSXP:{
 			counter_struct value = {.r_counter = 0, .c_counter = 0};
 			add_map_entry(e, value);
 			make_map_from_AST(CAR(e)); // Function name, so, hm, is it really nescessary to walk?
 			make_map_from_AST(CDR(e));
 			break;
+		}
 		case LISTSXP:
 			while (e != R_NilValue) {
 				make_map_from_AST(CAR(e));
@@ -1018,7 +1058,9 @@ void make_map_from_AST (SEXP e) {
 	}
 }
 
+/* S - Tries to walk the current stack and if it finds a LANGSXP that is in our map */
 map_entry_struct * get_current_entry () {
+	// Just like tracebackOnly
 	RCNTXT *c;
 
 	for (c = R_GlobalContext ;
@@ -1028,7 +1070,8 @@ map_entry_struct * get_current_entry () {
 		if (s != NULL){
 			return s;
 		}
-	 }
+	}
+
 	return NULL;
 }
 /* Return value of "e" evaluated in "rho". */
@@ -1037,11 +1080,11 @@ SEXP eval(SEXP e, SEXP rho)
 {
     SEXP op, tmp;
     static int evalcount = 0;
-	/* S - number of signals */
+
+	/* S - number of signals in the buffer */
 	static int no_of_signals = 0;
 
     R_Visible = TRUE;
-	/* S - Should the signal handling be here rather then in the switch case bellow?*/
 
     /* this is needed even for self-evaluating objects or something like
        'while (TRUE) NULL' will not be interruptable */
@@ -1055,13 +1098,18 @@ SEXP eval(SEXP e, SEXP rho)
 	evalcount = 0 ;
     }
 
-	/* S - Checking whether we've gotten a signal */
+	/* S - Checking whether we've gotten a signal, handling it */
 	if (R_GotSignal == 1) {
 		long long new_signal_time; GET_CURRENT_TIME_MS(new_signal_time);
 		R_SignalsArray[no_of_signals].time = new_signal_time - R_SubtractTime;
 		R_SignalsArray[no_of_signals].sexp = NULL;
+
 		map_entry_struct *s = get_current_entry();
-		if(s != NULL){
+		if ( s == NULL ) {
+			/* S - If we can't find a LANGSXP in stack that is in our map, then maybe the current sexp is it */
+			s = find_map_entry(e);
+		}
+		if ( s != NULL ) {
 			s->value.r_counter += SIGNAL_INTERVAL / 1000;
 			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
 			R_SignalsArray[no_of_signals].sexp = s->key;
@@ -1207,14 +1255,17 @@ SEXP eval(SEXP e, SEXP rho)
 	if (TYPEOF(CAR(e)) == SYMSXP) {
 		/* S - check whether this is my function to profile.
 			If it is, create a hashmap of all the LANGSXP in the function
-			Then start the timer of signals
+			Then start the timer of signals.
 		*/
 		if (strcmp(CHAR(PRINTNAME(CAR(e))), "..my_profile.." ) == 0 && getenv("R_SCALENE") != NULL ) {
 			atexit(deal_with_map);
+
 			make_map_from_AST(BODY(findFun(CAR(e), rho)));
+
 			GET_CURRENT_TIME_MS(R_SubtractTime);
 			restart_timer();
 		}
+
 	    /* This will throw an error if the function is not found */
 	    SEXP ecall = e;
 

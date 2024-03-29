@@ -263,14 +263,6 @@ typedef union { VECTOR_SEXPREC s; double align; } SEXPREC_ALIGN;
 # define MARK_NOT_MUTABLE(x) SET_NAMED(x, NAMEDMAX)
 #endif
 
-/* S - Macro to get time since beginig of epoch or whatever */
-#define GET_CURRENT_TIME_MS(value) \
-    do { \
-        struct timeval tv; \
-        gettimeofday(&tv, NULL); \
-        (value) = (((long long)tv.tv_sec) * 1000) + (tv.tv_usec / 1000); \
-    } while(0)
-
 /* To make complex assignments a bit safer, in particular with
    reference counting, a bit is set on the LHS binding cell or symbol
    at the beginning of the complex assignment process and unset at the
@@ -1468,32 +1460,8 @@ extern0 MATPROD_TYPE R_Matprod	INI_as(MATPROD_DEFAULT);  /* options(matprod) */
 extern0 int	R_WarnLength	INI_as(1000);	/* Error/warning max length */
 extern0 int	R_nwarnings	INI_as(50);
 
-/* S - our flag to see whether a signal was set */
-typedef struct {
-    SEXP sexp;
-    int time;
-} signal_struct;
-
+/* S - signal flag */
 extern0 Rboolean R_GotSignal INI_as(FALSE);
-#define MAX_SIGNAL_ARRAY_SIZE 10
-#define SIGNAL_INTERVAL 10000
-extern0 signal_struct R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
-extern long long R_SubtractTime;
-
-/* S - my hash map */
-#include "uthash.h"
-typedef struct {
-    unsigned int r_counter;
-    unsigned int c_counter;
-} counter_struct;
-
-typedef struct {
-    SEXP key;
-    counter_struct value;
-    UT_hash_handle hh;
-} map_entry_struct;
-
-extern0 map_entry_struct* R_LANGSXPMap INI_as(NULL);
 
 /* C stack checking */
 extern uintptr_t R_CStackLimit	INI_as((uintptr_t)-1);	/* C stack limit */

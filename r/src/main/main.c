@@ -32,6 +32,7 @@
 
 #define __MAIN__
 #define R_USE_SIGNALS 1
+
 #include <Defn.h>
 #include <Internal.h>
 #include "Rinterface.h"
@@ -1021,11 +1022,16 @@ void setup_Rmainloop(void)
        Perhaps it makes more sense to quit gracefully?
     */
 
+    /* S - Our initialize our signal handler */
     if (getenv("R_SCALENE") != NULL) {
-        /* S - Our initialize our signal handler */
         struct sigaction sa;
-        sa.sa_handler = &shandler;
-        sigaction(SIGVTALRM, &sa, NULL);
+        sa.sa_handler = shandler;
+        sa.sa_flags = 0;
+        sigemptyset(&sa.sa_mask);
+
+        if (sigaction(SIGVTALRM, &sa, NULL) == -1) {
+            perror("sigaction");
+        }
 
         FILE * fptr = fopen("../receiver.txt", "w");
         fclose(fptr);
