@@ -941,6 +941,7 @@ signal_struct R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
 typedef struct {
     unsigned int r_counter;
     unsigned int c_counter;
+	unsigned int position;
 } counter_struct;
 
 typedef struct {
@@ -983,18 +984,34 @@ void delete_map() {
     }
 }
 
+/* S - Function to compare two elements based on position value for sorting */
+int compare_position(const void *a, const void *b) {
+    map_entry_struct *entry1 = *(map_entry_struct **)a;
+    map_entry_struct *entry2 = *(map_entry_struct **)b;
+    return entry1->value.position - entry2->value.position;
+}
+
 /* S - Prints the SYMSXP of the LANGSXP and the counter values */
 void print_map_entries() {
 	FILE * file = fopen("../receiver.txt", "a");
-	map_entry_struct *s;
+	map_entry_struct **entries = malloc(sizeof(map_entry_struct*) * HASH_COUNT(R_LANGSXPMap));
+    map_entry_struct *entry, *tmp;
+    int i = 0;
+    HASH_ITER(hh, R_LANGSXPMap, entry, tmp) {
+        entries[i++] = entry;
+    }
+	// Sort the array based on position value
+    qsort(entries, HASH_COUNT(R_LANGSXPMap), sizeof(map_entry_struct*), compare_position);
 
-	fprintf(file, "--------------------------------\n");
-	for (s = R_LANGSXPMap; s != NULL; s = (map_entry_struct*)(s->hh.next)) {
-		fprintf(file, "SYMSXP %s\n", CHAR(PRINTNAME(CAR(s->key))));
-		fprintf(file, "r_counter %d, c_counter %d \n", s->value.r_counter, s->value.c_counter);
+    // Print the elements in the sorted order
+    for (i = 0; i < HASH_COUNT(R_LANGSXPMap); i++) {
+		fprintf(file, "SYMSXP %s\n", CHAR(PRINTNAME(CAR(entries[i]->key))));
+		fprintf(file, "r_counter %d, c_counter %d \n", entries[i]->value.r_counter, entries[i]->value.c_counter);
+		fprintf(file, "position %d\n", entries[i]->value.position);
 		fprintf(file, "--------------------------------\n");
-	}
+    }
 
+	free(entries);
 	fclose(file);
 }
 
@@ -1039,9 +1056,10 @@ void postprocess_signal ( int* no_of_signals ) {
 
 /* S - Initialze the map with all LANGSXPs in a given function */
 void make_map_from_AST (SEXP e) {
+	static unsigned int position = 0;
 	switch (TYPEOF(e)) {
 		case LANGSXP:{
-			counter_struct value = {.r_counter = 0, .c_counter = 0};
+			counter_struct value = {.r_counter = 0, .c_counter = 0, .position = position++};
 			add_map_entry(e, value);
 			make_map_from_AST(CAR(e)); // Function name, so, hm, is it really nescessary to walk?
 			make_map_from_AST(CDR(e));
@@ -1097,7 +1115,6 @@ SEXP eval(SEXP e, SEXP rho)
 #endif
 	evalcount = 0 ;
     }
-
 	/* S - Checking whether we've gotten a signal, handling it */
 	if (R_GotSignal == 1) {
 		long long new_signal_time; GET_CURRENT_TIME_MS(new_signal_time);
