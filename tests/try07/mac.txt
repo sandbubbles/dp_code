@@ -1,0 +1,3962 @@
+elapsed: 67, sexp: NULL 
+elapsed: 120, sexp: library  
+elapsed: 60, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 72, sexp: library  
+elapsed: 108, sexp: library  
+elapsed: 148, sexp: library  
+elapsed: 88, sexp: library  
+elapsed: 68, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 23, sexp: %>%  
+elapsed: 146, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 103, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 100, sexp: {  
+elapsed: 48, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 87, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 116, sexp: %>%  
+elapsed: 29, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 108, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 57, sexp: {  
+elapsed: 70, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 99, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 72, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 52, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 103, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: {  
+elapsed: 88, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 160, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 69, sexp: <-  
+elapsed: 15, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 15, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: tibble  
+elapsed: 17, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 15, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: {  
+elapsed: 96, sexp: %>%  
+elapsed: 24, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: {  
+elapsed: 36, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 35, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 28, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 103, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 136, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 19, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 91, sexp: %>%  
+elapsed: 45, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 56, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 83, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 56, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 67, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 72, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 40, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 78, sexp: {  
+elapsed: 70, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 115, sexp: {  
+elapsed: 13, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 111, sexp: %>%  
+elapsed: 32, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 74, sexp: {  
+elapsed: 66, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 18, sexp: <-  
+elapsed: 14, sexp: %>%  
+elapsed: 39, sexp: %>%  
+elapsed: 87, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 31, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 59, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 36, sexp: %>%  
+elapsed: 152, sexp: %>%  
+elapsed: 33, sexp: {  
+elapsed: 55, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 59, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 27, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 115, sexp: %>%  
+elapsed: 57, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 35, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 54, sexp: {  
+elapsed: 82, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 63, sexp: {  
+elapsed: 61, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 84, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 135, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 100, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 47, sexp: {  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 68, sexp: {  
+elapsed: 71, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 85, sexp: {  
+elapsed: 51, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: library  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 156, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 22, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 153, sexp: %>%  
+elapsed: 39, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 109, sexp: {  
+elapsed: 43, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 123, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 64, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 71, sexp: {  
+elapsed: 73, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 132, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 35, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 130, sexp: %>%  
+elapsed: 22, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 49, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 62, sexp: {  
+elapsed: 58, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 57, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 52, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 68, sexp: library  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 66, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 36, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 19, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 64, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 68, sexp: {  
+elapsed: 88, sexp: %>%  
+elapsed: 99, sexp: {  
+elapsed: 44, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 28, sexp: {  
+elapsed: 120, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 91, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 56, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 101, sexp: %>%  
+elapsed: 26, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 15, sexp: %>%  
+elapsed: 137, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 99, sexp: {  
+elapsed: 21, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 88, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 59, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 132, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: {  
+elapsed: 72, sexp: %>%  
+elapsed: 39, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 124, sexp: %>%  
+elapsed: 43, sexp: %>%  
+elapsed: 13, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 98, sexp: {  
+elapsed: 33, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 90, sexp: {  
+elapsed: 71, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 115, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 99, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 31, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 139, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 64, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 112, sexp: {  
+elapsed: 32, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 123, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: {  
+elapsed: 48, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 111, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 104, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 52, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 83, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 119, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 55, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 59, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 35, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 39, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 85, sexp: {  
+elapsed: 66, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 103, sexp: {  
+elapsed: 29, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 80, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 160, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 71, sexp: {  
+elapsed: 45, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: tibble  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 99, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 132, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 28, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 126, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 27, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 72, sexp: {  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 52, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 122, sexp: {  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 32, sexp: {  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 53, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 23, sexp: <-  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 206, sexp: {  
+elapsed: 26, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 34, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 115, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 152, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 19, sexp: tibble  
+elapsed: 56, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 34, sexp: %>%  
+elapsed: 81, sexp: %>%  
+elapsed: 56, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 80, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: {  
+elapsed: 42, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 45, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 108, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 111, sexp: %>%  
+elapsed: 33, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 60, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 51, sexp: %>%  
+elapsed: 51, sexp: {  
+elapsed: 45, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 34, sexp: {  
+elapsed: 58, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 68, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 30, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 26, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 80, sexp: {  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 103, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 128, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 124, sexp: {  
+elapsed: 28, sexp: tibble  
+elapsed: 56, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 15, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 121, sexp: {  
+elapsed: 27, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 59, sexp: {  
+elapsed: 69, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 135, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 17, sexp: tibble  
+elapsed: 27, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 59, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 152, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 47, sexp: {  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 68, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 99, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 135, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 68, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 143, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 117, sexp: {  
+elapsed: 31, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 91, sexp: %>%  
+elapsed: 88, sexp: <-  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 119, sexp: %>%  
+elapsed: 21, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 103, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 16, sexp: tibble  
+elapsed: 80, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 88, sexp: {  
+elapsed: 47, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: {  
+elapsed: 52, sexp: %>%  
+elapsed: 19, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 26, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 35, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 122, sexp: {  
+elapsed: 42, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 72, sexp: %>%  
+elapsed: 103, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 88, sexp: {  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 32, sexp: {  
+elapsed: 63, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: {  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 123, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 51, sexp: {  
+elapsed: 73, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: tibble  
+elapsed: 15, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 47, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 94, sexp: {  
+elapsed: 42, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 75, sexp: {  
+elapsed: 53, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 27, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 17, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 47, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 32, sexp: {  
+elapsed: 108, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 19, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 65, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 36, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 19, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 136, sexp: %>%  
+elapsed: 29, sexp: {  
+elapsed: 95, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 127, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 37, sexp: {  
+elapsed: 74, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 132, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 124, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 105, sexp: {  
+elapsed: 43, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 14, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 61, sexp: {  
+elapsed: 83, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 53, sexp: %>%  
+elapsed: 103, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 36, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 15, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 56, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 78, sexp: {  
+elapsed: 54, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 17, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 19, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: {  
+elapsed: 48, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 87, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 15, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 60, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 35, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 88, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 48, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 83, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 132, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 33, sexp: {  
+elapsed: 59, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 60, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 76, sexp: tibble  
+elapsed: 16, sexp: tibble  
+elapsed: 40, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 128, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 55, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 87, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 70, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 152, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 15, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 100, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 52, sexp: %>%  
+elapsed: 64, sexp: {  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: data.frame  
+elapsed: 116, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 115, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: data.frame  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 83, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 148, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: {  
+elapsed: 100, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 38, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 55, sexp: {  
+elapsed: 97, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 99, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 73, sexp: %>%  
+elapsed: 69, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 132, sexp: [  
+elapsed: 84, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 38, sexp: {  
+elapsed: 122, sexp: %>%  
+elapsed: 27, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 123, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 25, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 25, sexp: %>%  
+elapsed: 14, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 23, sexp: tibble  
+elapsed: 16, sexp: tibble  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 48, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 27, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 123, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: {  
+elapsed: 88, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 120, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 27, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 55, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 59, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 88, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 30, sexp: {  
+elapsed: 94, sexp: %>%  
+elapsed: 20, sexp: my_df  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 84, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 44, sexp: {  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 62, sexp: {  
+elapsed: 54, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 81, sexp: %>%  
+elapsed: 35, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 90, sexp: {  
+elapsed: 42, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 88, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 139, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 61, sexp: %>%  
+elapsed: 115, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 171, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 72, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 30, sexp: %>%  
+elapsed: 14, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 36, sexp: %>%  
+elapsed: 125, sexp: %>%  
+elapsed: 55, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 63, sexp: %>%  
+elapsed: 24, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: data.frame  
+elapsed: 71, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 61, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 150, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 139, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 152, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 113, sexp: {  
+elapsed: 34, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 79, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 119, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 118, sexp: {  
+elapsed: 22, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 112, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 98, sexp: {  
+elapsed: 22, sexp: %>%  
+elapsed: 143, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 110, sexp: %>%  
+elapsed: 14, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 55, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 176, sexp: %>%  
+elapsed: 27, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 152, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 13, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 24, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 95, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 107, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 36, sexp: %>%  
+elapsed: 98, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 60, sexp: %>%  
+elapsed: 108, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 55, sexp: %>%  
+elapsed: 115, sexp: {  
+elapsed: 25, sexp: <-  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 78, sexp: {  
+elapsed: 18, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 84, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 71, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 142, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 19, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 81, sexp: {  
+elapsed: 55, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 79, sexp: {  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 198, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 27, sexp: %>%  
+elapsed: 13, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 78, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 188, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 131, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: {  
+elapsed: 72, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 28, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 113, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 55, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 17, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 119, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 144, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 31, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 81, sexp: {  
+elapsed: 47, sexp: %>%  
+elapsed: 24, sexp: <-  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 69, sexp: %>%  
+elapsed: 131, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 88, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 107, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 47, sexp: {  
+elapsed: 72, sexp: {  
+elapsed: 13, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 23, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 44, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 35, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 84, sexp: {  
+elapsed: 68, sexp: %>%  
+elapsed: 24, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 99, sexp: {  
+elapsed: 53, sexp: %>%  
+elapsed: 67, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 83, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 55, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 75, sexp: {  
+elapsed: 77, sexp: %>%  
+elapsed: 20, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 125, sexp: {  
+elapsed: 31, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 22, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 48, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 132, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: library  
+elapsed: 75, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 100, sexp: %>%  
+elapsed: 37, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 47, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 49, sexp: %>%  
+elapsed: 15, sexp: tibble  
+elapsed: 48, sexp: %>%  
+elapsed: 88, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 75, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 71, sexp: {  
+elapsed: 13, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 120, sexp: %>%  
+elapsed: 26, sexp: %>%  
+elapsed: 140, sexp: tibble  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 76, sexp: {  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 27, sexp: [  
+elapsed: 108, sexp: %>%  
+elapsed: 40, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 96, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 126, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 88, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 39, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 104, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 24, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 84, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 140, sexp: %>%  
+elapsed: 16, sexp: tibble  
+elapsed: 32, sexp: {  
+elapsed: 76, sexp: %>%  
+elapsed: 51, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 36, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 64, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 95, sexp: %>%  
+elapsed: 56, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 80, sexp: %>%  
+elapsed: 19, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 128, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 52, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 136, sexp: %>%  
+elapsed: 15, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 92, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 124, sexp: %>%  
+elapsed: 28, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 112, sexp: %>%  
+elapsed: 32, sexp: %>%  
+elapsed: 116, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 60, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 20, sexp: %>%  
+elapsed: 76, sexp: %>%  
+elapsed: 72, sexp: %>%  
+elapsed: 16, sexp: %>%  
+elapsed: 68, sexp: %>%  
+elapsed: 60, sexp: %>%  
+SYMSXP {
+r_counter 0, c_counter 0 
+position 0
+--------------------------------
+SYMSXP for
+r_counter 0, c_counter 0 
+position 1
+--------------------------------
+SYMSXP :
+r_counter 0, c_counter 0 
+position 2
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 3
+--------------------------------
+SYMSXP †8O˘ê∆
+r_counter 0, c_counter 0 
+position 4
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 5
+--------------------------------
+SYMSXP ::
+r_counter 0, c_counter 0 
+position 6
+--------------------------------
+SYMSXP options
+r_counter 0, c_counter 0 
+position 7
+--------------------------------
+SYMSXP set.seed
+r_counter 0, c_counter 0 
+position 8
+--------------------------------
+SYMSXP library
+r_counter 120, c_counter 684 
+position 9
+--------------------------------
+SYMSXP [
+r_counter 20, c_counter 139 
+position 10
+--------------------------------
+SYMSXP &
+r_counter 0, c_counter 0 
+position 11
+--------------------------------
+SYMSXP ==
+r_counter 0, c_counter 0 
+position 12
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 13
+--------------------------------
+SYMSXP ==
+r_counter 0, c_counter 0 
+position 14
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 15
+--------------------------------
+SYMSXP %>%
+r_counter 220, c_counter 388 
+position 16
+--------------------------------
+SYMSXP filter
+r_counter 0, c_counter 0 
+position 17
+--------------------------------
+SYMSXP ==
+r_counter 0, c_counter 0 
+position 18
+--------------------------------
+SYMSXP ==
+r_counter 0, c_counter 0 
+position 19
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 20
+--------------------------------
+SYMSXP data.frame
+r_counter 30, c_counter 26 
+position 21
+--------------------------------
+SYMSXP runif
+r_counter 0, c_counter 0 
+position 22
+--------------------------------
+SYMSXP runif
+r_counter 0, c_counter 0 
+position 23
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 24
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 25
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 26
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 27
+--------------------------------
+SYMSXP %>%
+r_counter 460, c_counter 451 
+position 28
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 29
+--------------------------------
+SYMSXP n
+r_counter 0, c_counter 0 
+position 30
+--------------------------------
+SYMSXP min
+r_counter 0, c_counter 0 
+position 31
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 32
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 33
+--------------------------------
+SYMSXP max
+r_counter 0, c_counter 0 
+position 34
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 35
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 36
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 37
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 38
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 39
+--------------------------------
+SYMSXP var_summary
+r_counter 0, c_counter 0 
+position 40
+--------------------------------
+SYMSXP for
+r_counter 0, c_counter 0 
+position 41
+--------------------------------
+SYMSXP names
+r_counter 0, c_counter 0 
+position 42
+--------------------------------
+SYMSXP {
+r_counter 460, c_counter 3084 
+position 43
+--------------------------------
+SYMSXP %>%
+r_counter 6500, c_counter 37853 
+position 44
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 45
+--------------------------------
+SYMSXP count
+r_counter 0, c_counter 0 
+position 46
+--------------------------------
+SYMSXP [[
+r_counter 0, c_counter 0 
+position 47
+--------------------------------
+SYMSXP print
+r_counter 0, c_counter 0 
+position 48
+--------------------------------
+SYMSXP <-
+r_counter 50, c_counter 173 
+position 49
+--------------------------------
+SYMSXP tibble
+r_counter 130, c_counter 1161 
+position 50
+--------------------------------
+SYMSXP :=
+r_counter 0, c_counter 0 
+position 51
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 52
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 53
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 54
+--------------------------------
+SYMSXP tibble
+r_counter 80, c_counter 787 
+position 55
+--------------------------------
+SYMSXP :=
+r_counter 0, c_counter 0 
+position 56
+--------------------------------
+SYMSXP *
+r_counter 0, c_counter 0 
+position 57
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 58
+--------------------------------
+SYMSXP my_df
+r_counter 10, c_counter 10 
+position 59
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 60
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 61
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 62
+--------------------------------
+SYMSXP %>%
+r_counter 770, c_counter 5082 
+position 63
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 64
+--------------------------------
+SYMSXP n
+r_counter 0, c_counter 0 
+position 65
+--------------------------------
+SYMSXP across
+r_counter 0, c_counter 0 
+position 66
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 67
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 68
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 69
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 70
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 71
+--------------------------------
+SYMSXP summarise_mean
+r_counter 0, c_counter 0 
+position 72
+--------------------------------
+SYMSXP where
+r_counter 0, c_counter 0 
+position 73
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 74
+--------------------------------
+SYMSXP c
+r_counter 0, c_counter 0 
+position 75
+--------------------------------
+SYMSXP %>%
+r_counter 140, c_counter 1099 
+position 76
+--------------------------------
+SYMSXP select
+r_counter 0, c_counter 0 
+position 77
+--------------------------------
+SYMSXP all_of
+r_counter 0, c_counter 0 
+position 78
+--------------------------------
+SYMSXP %>%
+r_counter 130, c_counter 765 
+position 79
+--------------------------------
+SYMSXP select
+r_counter 0, c_counter 0 
+position 80
+--------------------------------
+SYMSXP !
+r_counter 0, c_counter 0 
+position 81
+--------------------------------
+SYMSXP all_of
+r_counter 0, c_counter 0 
+position 82
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 83
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 84
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 85
+--------------------------------
+SYMSXP mutate
+r_counter 0, c_counter 0 
+position 86
+--------------------------------
+SYMSXP +
+r_counter 0, c_counter 0 
+position 87
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 88
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 89
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 90
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 91
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 92
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 93
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 94
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 95
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 96
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 97
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 98
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 99
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 100
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 101
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 102
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 103
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 104
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 105
+--------------------------------
+SYMSXP sum
+r_counter 0, c_counter 0 
+position 106
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 107
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 108
+--------------------------------
+SYMSXP n
+r_counter 0, c_counter 0 
+position 109
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 110
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 111
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 112
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 113
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 114
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 115
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 116
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 117
+--------------------------------
+SYMSXP sd
+r_counter 0, c_counter 0 
+position 118
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 119
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 120
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 121
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 122
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 123
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 124
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 125
+--------------------------------
+SYMSXP :=
+r_counter 0, c_counter 0 
+position 126
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 127
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 128
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 129
+--------------------------------
+SYMSXP :=
+r_counter 0, c_counter 0 
+position 130
+--------------------------------
+SYMSXP sum
+r_counter 0, c_counter 0 
+position 131
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 132
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 133
+--------------------------------
+SYMSXP :=
+r_counter 0, c_counter 0 
+position 134
+--------------------------------
+SYMSXP n
+r_counter 0, c_counter 0 
+position 135
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 136
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 137
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 138
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 139
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 140
+--------------------------------
+SYMSXP :=
+r_counter 0, c_counter 0 
+position 141
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 142
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 143
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 144
+--------------------------------
+SYMSXP :=
+r_counter 0, c_counter 0 
+position 145
+--------------------------------
+SYMSXP sd
+r_counter 0, c_counter 0 
+position 146
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 147
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 148
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 149
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 150
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 151
+--------------------------------
+SYMSXP %>%
+r_counter 3050, c_counter 13232 
+position 152
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 153
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 154
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 155
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 156
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 157
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 158
+--------------------------------
+SYMSXP my_summarise
+r_counter 0, c_counter 0 
+position 159
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 160
+--------------------------------
+SYMSXP my_summarise
+r_counter 0, c_counter 0 
+position 161
+--------------------------------
+SYMSXP <-
+r_counter 10, c_counter 14 
+position 162
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 163
+--------------------------------
+SYMSXP c
+r_counter 0, c_counter 0 
+position 164
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 165
+--------------------------------
+SYMSXP tibble
+r_counter 1610, c_counter 1402 
+position 166
+--------------------------------
+SYMSXP quantile
+r_counter 0, c_counter 0 
+position 167
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 168
+--------------------------------
+SYMSXP :
+r_counter 0, c_counter 0 
+position 169
+--------------------------------
+SYMSXP quantile_df
+r_counter 0, c_counter 0 
+position 170
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 171
+--------------------------------
+SYMSXP tibble
+r_counter 100, c_counter 144 
+position 172
+--------------------------------
+SYMSXP rep
+r_counter 0, c_counter 0 
+position 173
+--------------------------------
+SYMSXP :
+r_counter 0, c_counter 0 
+position 174
+--------------------------------
+SYMSXP runif
+r_counter 0, c_counter 0 
+position 175
+--------------------------------
+SYMSXP rnorm
+r_counter 0, c_counter 0 
+position 176
+--------------------------------
+SYMSXP %>%
+r_counter 400, c_counter 523 
+position 177
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 178
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 179
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 180
+--------------------------------
+SYMSXP quantile_df
+r_counter 0, c_counter 0 
+position 181
+--------------------------------
+SYMSXP %>%
+r_counter 1140, c_counter 944 
+position 182
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 183
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 184
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 185
+--------------------------------
+SYMSXP across
+r_counter 0, c_counter 0 
+position 186
+--------------------------------
+SYMSXP :
+r_counter 0, c_counter 0 
+position 187
+--------------------------------
+SYMSXP ~
+r_counter 0, c_counter 0 
+position 188
+--------------------------------
+SYMSXP quantile_df
+r_counter 0, c_counter 0 
+position 189
+--------------------------------
+SYMSXP %>%
+r_counter 1140, c_counter 676 
+position 190
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 191
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 192
+--------------------------------
+SYMSXP reframe
+r_counter 0, c_counter 0 
+position 193
+--------------------------------
+SYMSXP across
+r_counter 0, c_counter 0 
+position 194
+--------------------------------
+SYMSXP :
+r_counter 0, c_counter 0 
+position 195
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 196
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 197
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 198
+--------------------------------
+SYMSXP %>%
+r_counter 950, c_counter 589 
+position 199
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 200
+--------------------------------
+SYMSXP across
+r_counter 0, c_counter 0 
+position 201
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 202
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 203
+--------------------------------
+SYMSXP ~
+r_counter 0, c_counter 0 
+position 204
+--------------------------------
+SYMSXP mean
+r_counter 0, c_counter 0 
+position 205
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 206
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 207
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 208
+--------------------------------
+SYMSXP my_summarise
+r_counter 0, c_counter 0 
+position 209
+--------------------------------
+SYMSXP c
+r_counter 0, c_counter 0 
+position 210
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 211
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 212
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 213
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 214
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 215
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 216
+--------------------------------
+SYMSXP pick
+r_counter 0, c_counter 0 
+position 217
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 218
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 219
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 220
+--------------------------------
+SYMSXP across
+r_counter 0, c_counter 0 
+position 221
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 222
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 223
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 224
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 225
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 226
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 227
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 228
+--------------------------------
+SYMSXP group_by
+r_counter 0, c_counter 0 
+position 229
+--------------------------------
+SYMSXP pick
+r_counter 0, c_counter 0 
+position 230
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 231
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 232
+--------------------------------
+SYMSXP summarise
+r_counter 0, c_counter 0 
+position 233
+--------------------------------
+SYMSXP across
+r_counter 0, c_counter 0 
+position 234
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 235
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 236
+--------------------------------
+SYMSXP for
+r_counter 0, c_counter 0 
+position 237
+--------------------------------
+SYMSXP names
+r_counter 0, c_counter 0 
+position 238
+--------------------------------
+SYMSXP {
+r_counter 400, c_counter 2546 
+position 239
+--------------------------------
+SYMSXP %>%
+r_counter 6760, c_counter 37978 
+position 240
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 241
+--------------------------------
+SYMSXP count
+r_counter 0, c_counter 0 
+position 242
+--------------------------------
+SYMSXP [[
+r_counter 0, c_counter 0 
+position 243
+--------------------------------
+SYMSXP print
+r_counter 0, c_counter 0 
+position 244
+--------------------------------
+SYMSXP %>%
+r_counter 4820, c_counter 23578 
+position 245
+--------------------------------
+SYMSXP %>%
+r_counter 0, c_counter 0 
+position 246
+--------------------------------
+SYMSXP names
+r_counter 0, c_counter 0 
+position 247
+--------------------------------
+SYMSXP †8O˘ê∆
+r_counter 0, c_counter 0 
+position 248
+--------------------------------
+SYMSXP ::
+r_counter 0, c_counter 0 
+position 249
+--------------------------------
+SYMSXP ~
+r_counter 0, c_counter 0 
+position 250
+--------------------------------
+SYMSXP count
+r_counter 0, c_counter 0 
+position 251
+--------------------------------
+SYMSXP [[
+r_counter 0, c_counter 0 
+position 252
+--------------------------------
