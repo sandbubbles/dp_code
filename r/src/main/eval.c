@@ -1057,6 +1057,7 @@ void postprocess_signal ( int* no_of_signals ) {
 /* S - Initialze the map with all LANGSXPs in a given function */
 void make_map_from_AST (SEXP e) {
 	static unsigned int position = 0;
+	R_inspect(e);
 	switch (TYPEOF(e)) {
 		case LANGSXP:{
 			counter_struct value = {.r_counter = 0, .c_counter = 0, .position = position++};
