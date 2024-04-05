@@ -1,0 +1,46 @@
+elapsed: 23, sexp: +  
+elapsed: 20, sexp: +  
+elapsed: 24, sexp: {  
+elapsed: 24, sexp: print  
+elapsed: 20, sexp: print  
+elapsed: 24, sexp: print  
+elapsed: 24, sexp: {  
+elapsed: 36, sexp: +  
+elapsed: 16, sexp: {  
+elapsed: 20, sexp: print  
+SYMSXP {
+r_counter 0, c_counter 0 
+position 0
+--------------------------------
+SYMSXP for
+r_counter 0, c_counter 0 
+position 1
+--------------------------------
+SYMSXP :
+r_counter 0, c_counter 0 
+position 2
+--------------------------------
+SYMSXP {
+r_counter 30, c_counter 34 
+position 3
+--------------------------------
+SYMSXP print
+r_counter 30, c_counter 38 
+position 4
+--------------------------------
+SYMSXP +
+r_counter 40, c_counter 63 
+position 5
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 6
+--------------------------------
+SYMSXP *
+r_counter 0, c_counter 0 
+position 7
+--------------------------------
+SYMSXP print
+r_counter 30, c_counter 34 
+position 8
+--------------------------------

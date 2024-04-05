@@ -1,0 +1,1350 @@
+elapsed: 33, sexp: system.time  
+elapsed: 14, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 20, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 30, sexp: library  
+elapsed: 39, sexp: library  
+elapsed: 15, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 17, sexp: library  
+elapsed: 19, sexp: library  
+elapsed: 27, sexp: library  
+elapsed: 24, sexp: library  
+elapsed: 22, sexp: library  
+elapsed: 15, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 18, sexp: library  
+elapsed: 14, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 18, sexp: library  
+elapsed: 14, sexp: library  
+elapsed: 41, sexp: library  
+elapsed: 15, sexp: library  
+elapsed: 85, sexp: library  
+elapsed: 15, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 16, sexp: library  
+elapsed: 96, sexp: system.time  
+elapsed: 544, sexp: solve  
+elapsed: 349, sexp: system.time  
+elapsed: 546, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 511, sexp: solve  
+elapsed: 79, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 540, sexp: system.time  
+elapsed: 73, sexp: <-  
+elapsed: 97, sexp: system.time  
+elapsed: 73, sexp: system.time  
+elapsed: 537, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 88, sexp: system.time  
+elapsed: 507, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 513, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 508, sexp: solve  
+elapsed: 68, sexp: solve  
+elapsed: 511, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 77, sexp: system.time  
+elapsed: 77, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 165, sexp: Sys.procinfo  
+elapsed: 14, sexp: str  
+elapsed: 89, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 536, sexp: solve  
+elapsed: 348, sexp: system.time  
+elapsed: 546, sexp: system.time  
+elapsed: 86, sexp: system.time  
+elapsed: 507, sexp: solve  
+elapsed: 77, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 536, sexp: system.time  
+elapsed: 74, sexp: <-  
+elapsed: 97, sexp: system.time  
+elapsed: 534, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 88, sexp: system.time  
+elapsed: 521, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 244, sexp: system.time  
+elapsed: 541, sexp: system.time  
+elapsed: 83, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 69, sexp: solve  
+elapsed: 508, sexp: <-  
+elapsed: 84, sexp: system.time  
+elapsed: 62, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 37, sexp: Sys.procinfo  
+elapsed: 89, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 532, sexp: solve  
+elapsed: 350, sexp: system.time  
+elapsed: 551, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 69, sexp: <-  
+elapsed: 92, sexp: system.time  
+elapsed: 538, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 514, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 512, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 513, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 506, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 35, sexp: Sys.procinfo  
+elapsed: 90, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 547, sexp: system.time  
+elapsed: 86, sexp: system.time  
+elapsed: 508, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 535, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 93, sexp: system.time  
+elapsed: 534, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 507, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 506, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 511, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 62, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 77, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 73, sexp: system.time  
+elapsed: 40, sexp: structure  
+elapsed: 86, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 534, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 538, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 535, sexp: system.time  
+elapsed: 66, sexp: <-  
+elapsed: 88, sexp: system.time  
+elapsed: 534, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 90, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 507, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 506, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 77, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 39, sexp: structure  
+elapsed: 88, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 532, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 531, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 66, sexp: <-  
+elapsed: 90, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 509, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 37, sexp: sapply  
+elapsed: 88, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 340, sexp: system.time  
+elapsed: 544, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 96, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 88, sexp: system.time  
+elapsed: 507, sexp: chol  
+elapsed: 59, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 511, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 77, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 73, sexp: system.time  
+elapsed: 43, sexp: sapply  
+elapsed: 82, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 344, sexp: system.time  
+elapsed: 539, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 508, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 534, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 90, sexp: system.time  
+elapsed: 535, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 507, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 506, sexp: chol  
+elapsed: 59, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 63, sexp: solve  
+elapsed: 506, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 77, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 36, sexp: Sys.procinfo  
+elapsed: 89, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 534, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 544, sexp: system.time  
+elapsed: 86, sexp: system.time  
+elapsed: 507, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 536, sexp: system.time  
+elapsed: 72, sexp: <-  
+elapsed: 94, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 62, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 38, sexp: structure  
+elapsed: 87, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 532, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 530, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 87, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 506, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 62, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 73, sexp: system.time  
+elapsed: 43, sexp: structure  
+elapsed: 82, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 66, sexp: <-  
+elapsed: 93, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 506, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 506, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 512, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 507, sexp: solve  
+elapsed: 65, sexp: solve  
+elapsed: 508, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 78, sexp: system.time  
+elapsed: 77, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 35, sexp: Sys.procinfo  
+elapsed: 90, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 538, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 535, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 88, sexp: system.time  
+elapsed: 534, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 509, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 77, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 43, sexp: sapply  
+elapsed: 84, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 88, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 506, sexp: system.time  
+elapsed: 88, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 61, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 506, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 62, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 73, sexp: system.time  
+elapsed: 44, sexp: structure  
+elapsed: 82, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 342, sexp: system.time  
+elapsed: 543, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 93, sexp: system.time  
+elapsed: 531, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 506, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 506, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 509, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 62, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 35, sexp: Sys.procinfo  
+elapsed: 88, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 340, sexp: system.time  
+elapsed: 538, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 66, sexp: <-  
+elapsed: 90, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 506, sexp: system.time  
+elapsed: 88, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 35, sexp: Sys.procinfo  
+elapsed: 89, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 343, sexp: system.time  
+elapsed: 542, sexp: system.time  
+elapsed: 86, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 93, sexp: system.time  
+elapsed: 531, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 88, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 61, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 82, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 73, sexp: system.time  
+elapsed: 43, sexp: structure  
+elapsed: 81, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 535, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 539, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 506, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 87, sexp: system.time  
+elapsed: 535, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 506, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 82, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 39, sexp: sapply  
+elapsed: 86, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 342, sexp: system.time  
+elapsed: 530, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 535, sexp: system.time  
+elapsed: 66, sexp: <-  
+elapsed: 89, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 504, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 61, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 509, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 507, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 77, sexp: system.time  
+elapsed: 75, sexp: system.time  
+elapsed: 74, sexp: system.time  
+elapsed: 43, sexp: structure  
+elapsed: 86, sexp: system.time  
+elapsed: 79, sexp: system.time  
+elapsed: 533, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 543, sexp: system.time  
+elapsed: 85, sexp: system.time  
+elapsed: 507, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 82, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 67, sexp: <-  
+elapsed: 93, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 505, sexp: system.time  
+elapsed: 89, sexp: system.time  
+elapsed: 505, sexp: chol  
+elapsed: 60, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 511, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 83, sexp: system.time  
+elapsed: 63, sexp: solve  
+elapsed: 75, sexp: system.time  
+elapsed: 78, sexp: system.time  
+elapsed: 76, sexp: system.time  
+elapsed: 73, sexp: system.time  
+elapsed: 35, sexp: Sys.procinfo  
+elapsed: 88, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 532, sexp: solve  
+elapsed: 341, sexp: system.time  
+elapsed: 539, sexp: system.time  
+elapsed: 84, sexp: system.time  
+elapsed: 505, sexp: solve  
+elapsed: 76, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 533, sexp: system.time  
+elapsed: 66, sexp: <-  
+elapsed: 89, sexp: system.time  
+elapsed: 532, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 506, sexp: system.time  
+elapsed: 90, sexp: system.time  
+elapsed: 506, sexp: chol  
+elapsed: 62, sexp: system.time  
+elapsed: 81, sexp: system.time  
+elapsed: 510, sexp: system.time  
+elapsed: 80, sexp: system.time  
+elapsed: 504, sexp: solve  
+elapsed: 64, sexp: solve  
+elapsed: 505, sexp: <-  
+elapsed: 82, sexp: system.time  
+elapsed: 63, sexp: solve  
+SYMSXP {
+r_counter 0, c_counter 0 
+position 0
+--------------------------------
+SYMSXP for
+r_counter 0, c_counter 0 
+position 1
+--------------------------------
+SYMSXP :
+r_counter 0, c_counter 0 
+position 2
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 3
+--------------------------------
+SYMSXP options
+r_counter 0, c_counter 0 
+position 4
+--------------------------------
+SYMSXP library
+r_counter 0, c_counter 0 
+position 5
+--------------------------------
+SYMSXP library
+r_counter 0, c_counter 0 
+position 6
+--------------------------------
+SYMSXP data
+r_counter 0, c_counter 0 
+position 7
+--------------------------------
+SYMSXP str
+r_counter 10, c_counter 4 
+position 8
+--------------------------------
+SYMSXP (
+r_counter 0, c_counter 0 
+position 9
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 10
+--------------------------------
+SYMSXP cbind
+r_counter 0, c_counter 0 
+position 11
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 12
+--------------------------------
+SYMSXP (
+r_counter 0, c_counter 0 
+position 13
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 14
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 15
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 16
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 17
+--------------------------------
+SYMSXP solve
+r_counter 0, c_counter 0 
+position 18
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 19
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 20
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 21
+--------------------------------
+SYMSXP system.time
+r_counter 200, c_counter 1477 
+position 22
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 23
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 24
+--------------------------------
+SYMSXP solve
+r_counter 0, c_counter 0 
+position 25
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 26
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 27
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 28
+--------------------------------
+SYMSXP dput
+r_counter 0, c_counter 0 
+position 29
+--------------------------------
+SYMSXP c
+r_counter 0, c_counter 0 
+position 30
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 31
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 32
+--------------------------------
+SYMSXP solve
+r_counter 0, c_counter 0 
+position 33
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 34
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 35
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 36
+--------------------------------
+SYMSXP dput
+r_counter 0, c_counter 0 
+position 37
+--------------------------------
+SYMSXP unname
+r_counter 0, c_counter 0 
+position 38
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 39
+--------------------------------
+SYMSXP lm.fit
+r_counter 0, c_counter 0 
+position 40
+--------------------------------
+SYMSXP library
+r_counter 330, c_counter 356 
+position 41
+--------------------------------
+SYMSXP data
+r_counter 0, c_counter 0 
+position 42
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 43
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 44
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 45
+--------------------------------
+SYMSXP as
+r_counter 0, c_counter 0 
+position 46
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 47
+--------------------------------
+SYMSXP dim
+r_counter 0, c_counter 0 
+position 48
+--------------------------------
+SYMSXP system.time
+r_counter 600, c_counter 18648 
+position 49
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 50
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 51
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 52
+--------------------------------
+SYMSXP solve
+r_counter 200, c_counter 10474 
+position 53
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 54
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 55
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 56
+--------------------------------
+SYMSXP system.time
+r_counter 400, c_counter 2813 
+position 57
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 58
+--------------------------------
+SYMSXP solve
+r_counter 200, c_counter 9923 
+position 59
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 60
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 61
+--------------------------------
+SYMSXP all.equal
+r_counter 0, c_counter 0 
+position 62
+--------------------------------
+SYMSXP system.time
+r_counter 400, c_counter 11898 
+position 63
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 64
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 65
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 66
+--------------------------------
+SYMSXP set.seed
+r_counter 0, c_counter 0 
+position 67
+--------------------------------
+SYMSXP <-
+r_counter 200, c_counter 1154 
+position 68
+--------------------------------
+SYMSXP [
+r_counter 0, c_counter 0 
+position 69
+--------------------------------
+SYMSXP rnorm
+r_counter 0, c_counter 0 
+position 70
+--------------------------------
+SYMSXP length
+r_counter 0, c_counter 0 
+position 71
+--------------------------------
+SYMSXP system.time
+r_counter 410, c_counter 12161 
+position 72
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 73
+--------------------------------
+SYMSXP %*%
+r_counter 0, c_counter 0 
+position 74
+--------------------------------
+SYMSXP t
+r_counter 0, c_counter 0 
+position 75
+--------------------------------
+SYMSXP system.time
+r_counter 400, c_counter 11347 
+position 76
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 77
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 78
+--------------------------------
+SYMSXP stopifnot
+r_counter 0, c_counter 0 
+position 79
+--------------------------------
+SYMSXP all.equal
+r_counter 0, c_counter 0 
+position 80
+--------------------------------
+SYMSXP system.time
+r_counter 400, c_counter 2579 
+position 81
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 82
+--------------------------------
+SYMSXP chol
+r_counter 200, c_counter 9933 
+position 83
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 84
+--------------------------------
+SYMSXP system.time
+r_counter 200, c_counter 1569 
+position 85
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 86
+--------------------------------
+SYMSXP backsolve
+r_counter 0, c_counter 0 
+position 87
+--------------------------------
+SYMSXP forwardsolve
+r_counter 0, c_counter 0 
+position 88
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 89
+--------------------------------
+SYMSXP stopifnot
+r_counter 0, c_counter 0 
+position 90
+--------------------------------
+SYMSXP all.equal
+r_counter 0, c_counter 0 
+position 91
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 92
+--------------------------------
+SYMSXP as
+r_counter 0, c_counter 0 
+position 93
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 94
+--------------------------------
+SYMSXP class
+r_counter 0, c_counter 0 
+position 95
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 96
+--------------------------------
+SYMSXP system.time
+r_counter 400, c_counter 11452 
+position 97
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 98
+--------------------------------
+SYMSXP solve
+r_counter 400, c_counter 10991 
+position 99
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 100
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 101
+--------------------------------
+SYMSXP stopifnot
+r_counter 0, c_counter 0 
+position 102
+--------------------------------
+SYMSXP all.equal
+r_counter 0, c_counter 0 
+position 103
+--------------------------------
+SYMSXP unname
+r_counter 0, c_counter 0 
+position 104
+--------------------------------
+SYMSXP as
+r_counter 0, c_counter 0 
+position 105
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 106
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 107
+--------------------------------
+SYMSXP <-
+r_counter 200, c_counter 9918 
+position 108
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 109
+--------------------------------
+SYMSXP system.time
+r_counter 200, c_counter 1458 
+position 110
+--------------------------------
+SYMSXP solve
+r_counter 200, c_counter 1054 
+position 111
+--------------------------------
+SYMSXP system.time
+r_counter 200, c_counter 1320 
+position 112
+--------------------------------
+SYMSXP solve
+r_counter 0, c_counter 0 
+position 113
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 114
+--------------------------------
+SYMSXP $
+r_counter 0, c_counter 0 
+position 115
+--------------------------------
+SYMSXP class
+r_counter 0, c_counter 0 
+position 116
+--------------------------------
+SYMSXP system.time
+r_counter 200, c_counter 1360 
+position 117
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 118
+--------------------------------
+SYMSXP solve
+r_counter 0, c_counter 0 
+position 119
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 120
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 121
+--------------------------------
+SYMSXP stopifnot
+r_counter 0, c_counter 0 
+position 122
+--------------------------------
+SYMSXP all.equal
+r_counter 0, c_counter 0 
+position 123
+--------------------------------
+SYMSXP unname
+r_counter 0, c_counter 0 
+position 124
+--------------------------------
+SYMSXP as
+r_counter 0, c_counter 0 
+position 125
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 126
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 127
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 128
+--------------------------------
+SYMSXP crossprod
+r_counter 0, c_counter 0 
+position 129
+--------------------------------
+SYMSXP system.time
+r_counter 200, c_counter 1309 
+position 130
+--------------------------------
+SYMSXP solve
+r_counter 0, c_counter 0 
+position 131
+--------------------------------
+SYMSXP system.time
+r_counter 200, c_counter 1279 
+position 132
+--------------------------------
+SYMSXP solve
+r_counter 0, c_counter 0 
+position 133
+--------------------------------
+SYMSXP toLatex
+r_counter 0, c_counter 0 
+position 134
+--------------------------------
+SYMSXP sessionInfo
+r_counter 0, c_counter 0 
+position 135
+--------------------------------
+SYMSXP if
+r_counter 0, c_counter 0 
+position 136
+--------------------------------
+SYMSXP identical
+r_counter 0, c_counter 0 
+position 137
+--------------------------------
+SYMSXP grep
+r_counter 0, c_counter 0 
+position 138
+--------------------------------
+SYMSXP [[
+r_counter 0, c_counter 0 
+position 139
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 140
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 141
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 142
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 143
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 144
+--------------------------------
+SYMSXP strsplit
+r_counter 0, c_counter 0 
+position 145
+--------------------------------
+SYMSXP readLines
+r_counter 0, c_counter 0 
+position 146
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 147
+--------------------------------
+SYMSXP sapply
+r_counter 40, c_counter 122 
+position 148
+--------------------------------
+SYMSXP [
+r_counter 0, c_counter 0 
+position 149
+--------------------------------
+SYMSXP ==
+r_counter 0, c_counter 0 
+position 150
+--------------------------------
+SYMSXP sapply
+r_counter 0, c_counter 0 
+position 151
+--------------------------------
+SYMSXP function
+r_counter 0, c_counter 0 
+position 152
+--------------------------------
+SYMSXP structure
+r_counter 70, c_counter 220 
+position 153
+--------------------------------
+SYMSXP [
+r_counter 0, c_counter 0 
+position 154
+--------------------------------
+SYMSXP [
+r_counter 0, c_counter 0 
+position 155
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 156
+--------------------------------
+SYMSXP attr
+r_counter 0, c_counter 0 
+position 157
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 158
+--------------------------------
+SYMSXP class
+r_counter 0, c_counter 0 
+position 159
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 160
+--------------------------------
+SYMSXP Sys.procinfo
+r_counter 90, c_counter 357 
+position 161
+--------------------------------
+SYMSXP <-
+r_counter 0, c_counter 0 
+position 162
+--------------------------------
+SYMSXP Sys.procinfo
+r_counter 0, c_counter 0 
+position 163
+--------------------------------
+SYMSXP if
+r_counter 0, c_counter 0 
+position 164
+--------------------------------
+SYMSXP identical
+r_counter 0, c_counter 0 
+position 165
+--------------------------------
+SYMSXP grep
+r_counter 0, c_counter 0 
+position 166
+--------------------------------
+SYMSXP [[
+r_counter 0, c_counter 0 
+position 167
+--------------------------------
+SYMSXP {
+r_counter 0, c_counter 0 
+position 168
+--------------------------------
+SYMSXP print
+r_counter 0, c_counter 0 
+position 169
+--------------------------------
+SYMSXP [
+r_counter 0, c_counter 0 
+position 170
+--------------------------------
+SYMSXP c
+r_counter 0, c_counter 0 
+position 171
+--------------------------------
+SYMSXP print
+r_counter 0, c_counter 0 
+position 172
+--------------------------------
+SYMSXP [
+r_counter 0, c_counter 0 
+position 173
+--------------------------------
+SYMSXP c
+r_counter 0, c_counter 0 
+position 174
+--------------------------------
