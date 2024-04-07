@@ -1368,10 +1368,6 @@ SEXP eval(SEXP e, SEXP rho)
 			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
 			R_SignalsArray[no_of_signals].sexp = s->key;
 		}
-		else {
-			printf("pfff\n");
-			R_inspect(e);
-		}
 		no_of_signals ++;
     	R_GotSignal = 0;
 		postprocess_signal(& no_of_signals);
