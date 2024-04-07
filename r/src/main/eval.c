@@ -1116,26 +1116,6 @@ SEXP eval(SEXP e, SEXP rho)
 #endif
 	evalcount = 0 ;
     }
-	/* S - Checking whether we've gotten a signal, handling it */
-	if (R_GotSignal == 1) {
-		long long new_signal_time; GET_CURRENT_TIME_MS(new_signal_time);
-		R_SignalsArray[no_of_signals].time = new_signal_time - R_SubtractTime;
-		R_SignalsArray[no_of_signals].sexp = NULL;
-
-		map_entry_struct *s = get_current_entry();
-		if ( s == NULL ) {
-			/* S - If we can't find a LANGSXP in stack that is in our map, then maybe the current sexp is it */
-			s = find_map_entry(e);
-		}
-		if ( s != NULL ) {
-			s->value.r_counter += SIGNAL_INTERVAL / 1000;
-			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
-			R_SignalsArray[no_of_signals].sexp = s->key;
-		}
-		no_of_signals ++;
-    	R_GotSignal = 0;
-		postprocess_signal(& no_of_signals);
-	}
     /* handle self-evaluating objects with minimal overhead */
     switch (TYPEOF(e)) {
     case NILSXP:
@@ -1371,6 +1351,32 @@ SEXP eval(SEXP e, SEXP rho)
     R_EvalDepth = depthsave;
     R_Srcref = srcrefsave;
     R_BCIntActive = bcintactivesave;
+
+	/* S - Checking whether we've gotten a signal, handling it */
+	if (R_GotSignal == 1) {
+		long long new_signal_time; GET_CURRENT_TIME_MS(new_signal_time);
+		R_SignalsArray[no_of_signals].time = new_signal_time - R_SubtractTime;
+		R_SignalsArray[no_of_signals].sexp = NULL;
+
+		map_entry_struct *s = get_current_entry();
+		if ( s == NULL ) {
+			/* S - If we can't find a LANGSXP in stack that is in our map, then maybe the current sexp is it */
+			s = find_map_entry(e);
+		}
+		if ( s != NULL ) {
+			s->value.r_counter += SIGNAL_INTERVAL / 1000;
+			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
+			R_SignalsArray[no_of_signals].sexp = s->key;
+		}
+		else {
+			printf("pfff\n");
+			R_inspect(e);
+		}
+		no_of_signals ++;
+    	R_GotSignal = 0;
+		postprocess_signal(& no_of_signals);
+	}
+	
     return (tmp);
 }
 
