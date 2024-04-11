@@ -1287,11 +1287,20 @@ SEXP eval(SEXP e, SEXP rho)
 			Then start the timer of signals.
 		*/
 		if (strcmp(CHAR(PRINTNAME(CAR(e))), "..my_profile.." ) == 0 && getenv("R_SCALENE") != NULL ) {
+			SEXP s = e;
+			while (s != R_NilValue) {
+				if (TYPEOF(CAR(s)) == SYMSXP) {
+					make_map_from_AST(BODY(findFun(CAR(s), rho)));
+					s = CDR(s);
+				}
+				else {
+					perror("Cant profile that");
+					s = CDR(s);
+				}
+			}
 			atexit(deal_with_map);
-			make_map_from_AST(BODY(findFun(CAR(e), rho)));
 			GET_CURRENT_TIME_MS(R_SubtractTime);
 			reset_timer();
-
 		}
 
 	    /* This will throw an error if the function is not found */
