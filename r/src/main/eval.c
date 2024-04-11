@@ -993,7 +993,7 @@ int compare_position(const void *a, const void *b) {
 
 /* S - Prints the SYMSXP of the LANGSXP and the counter values */
 void print_map_entries() {
-	FILE * file = fopen("../receiver.txt", "a");
+	FILE * file = fopen("../profiling.txt", "a");
 	map_entry_struct **entries = malloc(sizeof(map_entry_struct*) * HASH_COUNT(R_LANGSXPMap));
     map_entry_struct *entry, *tmp;
     int i = 0;
@@ -1022,7 +1022,7 @@ void deal_with_map () {
 }
 
 /* S - Set the next trigger on timer */
-void restart_timer ( void ) {
+void reset_timer ( void ) {
 	struct itimerval timer = {
     	.it_value = { .tv_sec = 0, .tv_usec = SIGNAL_INTERVAL },
     	.it_interval = { .tv_sec = 0, .tv_usec = 0 }
@@ -1036,10 +1036,11 @@ void restart_timer ( void ) {
 /* S - Flush buffer, and set the timer only after writing into the file */
 void postprocess_signal ( int* no_of_signals ) {
 	if ( (* no_of_signals) == MAX_SIGNAL_ARRAY_SIZE ) {
-		FILE * fptr = fopen("../receiver.txt", "a");
+		FILE * fptr = fopen("../profiling.txt", "a");
 		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
 			fprintf(fptr, "elapsed: %d, ", R_SignalsArray[i].time);
 			if(R_SignalsArray[i].sexp != NULL){
+
 				fprintf(fptr, "sexp: %s  \n", CHAR(PRINTNAME(CAR(R_SignalsArray[i].sexp))));
 			}
 			else{
@@ -1051,13 +1052,12 @@ void postprocess_signal ( int* no_of_signals ) {
 		(* no_of_signals) = 0;
 	}
 	GET_CURRENT_TIME_MS(R_SubtractTime);
-	restart_timer();
+	reset_timer();
 }
 
 /* S - Initialze the map with all LANGSXPs in a given function */
 void make_map_from_AST (SEXP e) {
 	static unsigned int position = 0;
-	R_inspect(e);
 	switch (TYPEOF(e)) {
 		case LANGSXP:{
 			counter_struct value = {.r_counter = 0, .c_counter = 0, .position = position++};
@@ -1257,11 +1257,10 @@ SEXP eval(SEXP e, SEXP rho)
 		*/
 		if (strcmp(CHAR(PRINTNAME(CAR(e))), "..my_profile.." ) == 0 && getenv("R_SCALENE") != NULL ) {
 			atexit(deal_with_map);
-
 			make_map_from_AST(BODY(findFun(CAR(e), rho)));
-
 			GET_CURRENT_TIME_MS(R_SubtractTime);
-			restart_timer();
+			reset_timer();
+
 		}
 
 	    /* This will throw an error if the function is not found */

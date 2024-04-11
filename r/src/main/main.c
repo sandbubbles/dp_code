@@ -1033,7 +1033,7 @@ void setup_Rmainloop(void)
             perror("sigaction");
         }
 
-        FILE * fptr = fopen("../receiver.txt", "w");
+        FILE * fptr = fopen("../profiling.txt", "w");
         fclose(fptr);
     }
 
