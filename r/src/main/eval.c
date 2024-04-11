@@ -21,6 +21,7 @@
 /* S - for R_inspect and header only hashmap*/
 #include "Rinternals.h"
 #include <stdio.h>
+#include <string.h>
 
 #ifdef HAVE_CONFIG_H
 # include <config.h>
@@ -1005,9 +1006,24 @@ void print_map_entries() {
 
     // Print the elements in the sorted order
     for (i = 0; i < HASH_COUNT(R_LANGSXPMap); i++) {
-		fprintf(file, "SYMSXP %s\n", CHAR(PRINTNAME(CAR(entries[i]->key))));
+		switch(TYPEOF(CAR(entries[i]->key))) {
+			case LANGSXP:
+				if(strcmp(CHAR(PRINTNAME(CAR(CAR(entries[i]->key)))),"::" ) == 0 || strcmp(CHAR(PRINTNAME(CAR(CAR(entries[i]->key)))),":::" ) == 0 ) {
+					fprintf(file, "CALL %s%s%s\n", CHAR(PRINTNAME(CADR(CAR(entries[i]->key)))), CHAR(PRINTNAME(CAR(CAR(entries[i]->key)))), CHAR(PRINTNAME(CADDR(CAR(entries[i]->key)))) );
+				}
+				else {
+					fprintf(file, "LANGCALL, FIX!\n");
+				}
+				break;
+			case SYMSXP:
+				fprintf(file, "CALL %s\n", CHAR(PRINTNAME(CAR(entries[i]->key))));
+				break;
+			default:
+				fprintf(file, "Error, FIX!\n");
+				break;
+		}
 		fprintf(file, "r_counter %d, c_counter %d \n", entries[i]->value.r_counter, entries[i]->value.c_counter);
-		fprintf(file, "position %d\n", entries[i]->value.position);
+		//fprintf(file, "position %d\n", entries[i]->value.position);
 		fprintf(file, "--------------------------------\n");
     }
 
@@ -1040,8 +1056,23 @@ void postprocess_signal ( int* no_of_signals ) {
 		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
 			fprintf(fptr, "elapsed: %d, ", R_SignalsArray[i].time);
 			if(R_SignalsArray[i].sexp != NULL){
+				switch(TYPEOF(CAR(R_SignalsArray[i].sexp))) {
+					case LANGSXP:
+						if(strcmp(CHAR(PRINTNAME(CAR(CAR(R_SignalsArray[i].sexp)))),"::" ) == 0 || strcmp(CHAR(PRINTNAME(CAR(CAR(R_SignalsArray[i].sexp)))),":::" ) == 0 ) {
+							fprintf(fptr, "sexp: %s%s%s\n", CHAR(PRINTNAME(CADR(CAR(R_SignalsArray[i].sexp)))), CHAR(PRINTNAME(CAR(CAR(R_SignalsArray[i].sexp)))), CHAR(PRINTNAME(CADDR(CAR(R_SignalsArray[i].sexp)))) );
+						}
+						else {
+							fprintf(fptr, "LANGsxp, fix!\n" );
+						}
+						break;
+					case SYMSXP:
+						fprintf(fptr, "sexp: %s\n", CHAR(PRINTNAME(CAR(R_SignalsArray[i].sexp))));
+						break;
+					default:
+						fprintf(fptr, "Error, FIX!\n");
+						break;
+				}
 
-				fprintf(fptr, "sexp: %s  \n", CHAR(PRINTNAME(CAR(R_SignalsArray[i].sexp))));
 			}
 			else{
 				fprintf(fptr, "sexp: NULL \n");
