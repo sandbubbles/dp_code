@@ -942,7 +942,7 @@ signal_struct R_SignalsArray [MAX_SIGNAL_ARRAY_SIZE];
 typedef struct {
     unsigned int r_counter;
     unsigned int c_counter;
-	unsigned int position;
+	unsigned int line_number;
 } counter_struct;
 
 typedef struct {
@@ -989,7 +989,7 @@ void delete_map() {
 int compare_position(const void *a, const void *b) {
     map_entry_struct *entry1 = *(map_entry_struct **)a;
     map_entry_struct *entry2 = *(map_entry_struct **)b;
-    return entry1->value.position - entry2->value.position;
+    return entry1->value.line_number - entry2->value.line_number;
 }
 
 /* S - Prints the SYMSXP of the LANGSXP and the counter values */
@@ -1023,7 +1023,7 @@ void print_map_entries() {
 				break;
 		}
 		fprintf(file, "r_counter %d, c_counter %d \n", entries[i]->value.r_counter, entries[i]->value.c_counter);
-		//fprintf(file, "position %d\n", entries[i]->value.position);
+		fprintf(file, "line_number %d\n", entries[i]->value.line_number);
 		fprintf(file, "--------------------------------\n");
     }
 
@@ -1087,22 +1087,42 @@ void postprocess_signal ( int* no_of_signals ) {
 }
 
 /* S - Initialze the map with all LANGSXPs in a given function */
-void make_map_from_AST (SEXP e) {
-	static unsigned int position = 0;
+void make_map_from_AST (SEXP e, int line) {
+
 	switch (TYPEOF(e)) {
-		case LANGSXP:{
-			counter_struct value = {.r_counter = 0, .c_counter = 0, .position = position++};
-			add_map_entry(e, value);
-			make_map_from_AST(CAR(e)); // Function name, so, hm, is it really nescessary to walk?
-			make_map_from_AST(CDR(e));
-			break;
-		}
-		case LISTSXP:
-			while (e != R_NilValue) {
-				make_map_from_AST(CAR(e));
+		case LANGSXP: {
+			if (TYPEOF(CAR(e)) == SYMSXP && strcmp(CHAR(PRINTNAME(CAR(e))), "{") == 0 && Rf_getAttrib(e, R_SrcrefSymbol) != R_NilValue) {
+				SEXP srcref = Rf_getAttrib(e, R_SrcrefSymbol);
+				SEXP line_number_sexp = VECTOR_ELT(srcref, 0);
+				int line_number = INTEGER(line_number_sexp)[0];
+
+				counter_struct value = {.r_counter = 0, .c_counter = 0, .line_number = line_number};
+				add_map_entry(e, value);
+				make_map_from_AST(CAR(e), line_number); // Function name, so, hm, is it really nescessary to walk?
+
 				e = CDR(e);
+				int i = 1;
+				while (e != R_NilValue) {
+					SEXP line_number_sexp = VECTOR_ELT(srcref, i);
+				    int line_number = INTEGER(line_number_sexp)[0];
+					++i;
+					make_map_from_AST(CAR(e), line_number);
+					e = CDR(e);
+				}
+			}
+			else {
+				counter_struct value = {.r_counter = 0, .c_counter = 0, .line_number = line};
+				add_map_entry(e, value);
+				make_map_from_AST(CAR(e), line); // Function name, so, hm, is it really nescessary to walk?
+
+				e = CDR(e);
+				while (e != R_NilValue) {
+					make_map_from_AST(CAR(e), line);
+					e = CDR(e);
+				}
 			}
 			break;
+		}
 		default:
 			break;
 	}
@@ -1290,7 +1310,8 @@ SEXP eval(SEXP e, SEXP rho)
 			SEXP s = e;
 			while (s != R_NilValue) {
 				if (TYPEOF(CAR(s)) == SYMSXP) {
-					make_map_from_AST(BODY(findFun(CAR(s), rho)));
+					make_map_from_AST(BODY(findFun(CAR(s), rho)), 0);
+					//R_inspect(findFun(CAR(s), rho));
 					s = CDR(s);
 				}
 				else {
