@@ -1,0 +1,1 @@
+source("../tests/try06/code.R", keep.source = TRUE)
