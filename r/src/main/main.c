@@ -1026,7 +1026,7 @@ void setup_Rmainloop(void)
     if (getenv("R_SCALENE") != NULL) {
         struct sigaction sa;
         sa.sa_handler = shandler;
-        sa.sa_flags = 0;
+        sa.sa_flags = SA_RESTART;
         sigemptyset(&sa.sa_mask);
 
         if (sigaction(SIGVTALRM, &sa, NULL) == -1) {
