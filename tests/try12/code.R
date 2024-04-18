@@ -18,9 +18,9 @@ bar <- function () {
 
 
 ..my_profile.. <- function (...) {
-    for (i in 1:5) {
-        print("hi")
-        start_time <- Sys.time()
+    lapply(1:5, function(i) {
+        #print("hi")
+        #start_time <- Sys.time()
 #    elapsed_time <- 0
 #    while (elapsed_time < 1) {
 #    result <- sum(rnorm(1:10000000))
@@ -28,10 +28,10 @@ bar <- function () {
 #    elapsed_time <- end_time - start_time
 #    }
         foo()
-        argtracer::trace_code()
-        bar()
-        3 + 2
-    }
+        #argtracer::trace_code()
+        #bar()
+        #3 + 2
+    })
 }
 
 ..my_profile..(foo, bar)
