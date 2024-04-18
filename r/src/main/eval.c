@@ -46,7 +46,7 @@ static SEXP bcEval(SEXP, SEXP, Rboolean);
 static Rboolean bc_profiling = FALSE;
 #endif
 
-static int R_Profiling = 0;
+static int R_Profiling = 1;
 
 #ifdef R_PROFILING
 
@@ -1022,6 +1022,7 @@ void print_map_entries() {
 				fprintf(file, "Error, FIX!\n");
 				break;
 		}
+		fprintf(file, "%p\n", entries[i]->key);
 		fprintf(file, "r_counter %d, c_counter %d \n", entries[i]->value.r_counter, entries[i]->value.c_counter);
 		fprintf(file, "line_number %d\n", entries[i]->value.line_number);
 		fprintf(file, "--------------------------------\n");
@@ -1139,6 +1140,20 @@ map_entry_struct * get_current_entry () {
 		map_entry_struct *s = find_map_entry(c->call);
 		if (s != NULL){
 			return s;
+		}
+	}
+
+	return NULL;
+}
+map_entry_struct * print_entry () {
+	// Only for debugging
+	RCNTXT *c;
+
+    for (c = R_GlobalContext ;
+		 c != NULL && c->callflag != CTXT_TOPLEVEL;
+		 c = c->nextcontext){
+		if(c->call != R_NilValue) {
+			R_inspect(c->call);
 		}
 	}
 
