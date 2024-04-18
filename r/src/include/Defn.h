@@ -1461,7 +1461,9 @@ extern0 int	R_WarnLength	INI_as(1000);	/* Error/warning max length */
 extern0 int	R_nwarnings	INI_as(50);
 
 /* S - signal flag */
-extern0 Rboolean R_GotSignal INI_as(FALSE);
+extern Rboolean R_GotSignal INI_as(FALSE);
+#define MAX_RS_FILE_NAME 256
+extern char	R_ScaleneFile[MAX_RS_FILE_NAME];
 
 /* C stack checking */
 extern uintptr_t R_CStackLimit	INI_as((uintptr_t)-1);	/* C stack limit */

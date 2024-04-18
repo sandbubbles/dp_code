@@ -1023,7 +1023,12 @@ void setup_Rmainloop(void)
     */
 
     /* S - Our initialize our signal handler */
-    if (getenv("R_SCALENE") != NULL) {
+    char *env = getenv("R_SCALENE");
+    if (env != NULL) {
+        if (strlen(env) >= MAX_RS_FILE_NAME) {
+            perror("R Scalene file name too long");
+        } 
+        strcpy(R_ScaleneFile, env);
         struct sigaction sa;
         sa.sa_handler = shandler;
         sa.sa_flags = SA_RESTART;
@@ -1033,7 +1038,7 @@ void setup_Rmainloop(void)
             perror("sigaction");
         }
 
-        FILE * fptr = fopen("../profiling.txt", "w");
+        FILE * fptr = fopen(R_ScaleneFile, "w");
         fclose(fptr);
     }
 

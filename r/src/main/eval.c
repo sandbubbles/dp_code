@@ -994,7 +994,7 @@ int compare_position(const void *a, const void *b) {
 
 /* S - Prints the SYMSXP of the LANGSXP and the counter values */
 void print_map_entries() {
-	FILE * file = fopen("../profiling.txt", "a");
+	FILE * file = fopen(R_ScaleneFile, "a");
 	map_entry_struct **entries = malloc(sizeof(map_entry_struct*) * HASH_COUNT(R_LANGSXPMap));
     map_entry_struct *entry, *tmp;
     int i = 0;
@@ -1053,7 +1053,7 @@ void reset_timer ( void ) {
 /* S - Flush buffer, and set the timer only after writing into the file */
 void postprocess_signal ( int* no_of_signals ) {
 	if ( (* no_of_signals) == MAX_SIGNAL_ARRAY_SIZE ) {
-		FILE * fptr = fopen("../profiling.txt", "a");
+		FILE * fptr = fopen(R_ScaleneFile, "a");
 		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
 			fprintf(fptr, "elapsed: %d, ", R_SignalsArray[i].time);
 			if(R_SignalsArray[i].sexp != NULL){
