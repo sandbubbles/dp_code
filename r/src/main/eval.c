@@ -992,6 +992,28 @@ int compare_position(const void *a, const void *b) {
     return entry1->value.line_number - entry2->value.line_number;
 }
 
+void print_sexp(SEXP key, FILE * file) {
+	switch(TYPEOF(CAR(key))) {
+		case LANGSXP: {
+			if(strcmp(CHAR(PRINTNAME(CAR(CAR(key)))),"::" ) == 0 || strcmp(CHAR(PRINTNAME(CAR(CAR(key)))),":::" ) == 0 || strcmp(CHAR(PRINTNAME(CAR(CAR(key)))),"$" ) == 0 ) {
+				print_sexp(CDR(CAR(key)), file);
+				print_sexp(CAR(key), file);
+				print_sexp(CDDR(CAR(key)), file);
+			}
+			else {
+				print_sexp(CAR(key), file);
+				fprintf(file, "-FIX!");
+			}
+			break;
+		}
+		case SYMSXP:
+			fprintf(file, "%s", CHAR(PRINTNAME(CAR(key))));
+			break;
+		default:
+			fprintf(file, "Error, FIX!\n");
+			break;
+	}
+}
 /* S - Prints the SYMSXP of the LANGSXP and the counter values */
 void print_map_entries() {
 	FILE * file = fopen(R_ScaleneFile, "a");
@@ -1004,28 +1026,13 @@ void print_map_entries() {
 	// Sort the array based on position value
     qsort(entries, HASH_COUNT(R_LANGSXPMap), sizeof(map_entry_struct*), compare_position);
 
+	fprintf(file, "line_number, langsxp, r_counter, c_counter\n");
+
     // Print the elements in the sorted order
     for (i = 0; i < HASH_COUNT(R_LANGSXPMap); i++) {
-		switch(TYPEOF(CAR(entries[i]->key))) {
-			case LANGSXP:
-				if(strcmp(CHAR(PRINTNAME(CAR(CAR(entries[i]->key)))),"::" ) == 0 || strcmp(CHAR(PRINTNAME(CAR(CAR(entries[i]->key)))),":::" ) == 0 ) {
-					fprintf(file, "CALL %s%s%s\n", CHAR(PRINTNAME(CADR(CAR(entries[i]->key)))), CHAR(PRINTNAME(CAR(CAR(entries[i]->key)))), CHAR(PRINTNAME(CADDR(CAR(entries[i]->key)))) );
-				}
-				else {
-					fprintf(file, "LANGCALL, FIX!\n");
-				}
-				break;
-			case SYMSXP:
-				fprintf(file, "CALL %s\n", CHAR(PRINTNAME(CAR(entries[i]->key))));
-				break;
-			default:
-				fprintf(file, "Error, FIX!\n");
-				break;
-		}
-		fprintf(file, "%p\n", entries[i]->key);
-		fprintf(file, "r_counter %d, c_counter %d \n", entries[i]->value.r_counter, entries[i]->value.c_counter);
-		fprintf(file, "line_number %d\n", entries[i]->value.line_number);
-		fprintf(file, "--------------------------------\n");
+		fprintf(file, "%d, ", entries[i]->value.line_number);
+		print_sexp(entries[i]->key, file);
+		fprintf(file, ", %d, %d\n", entries[i]->value.r_counter, entries[i]->value.c_counter);
     }
 
 	free(entries);
@@ -1055,28 +1062,13 @@ void postprocess_signal ( int* no_of_signals ) {
 	if ( (* no_of_signals) == MAX_SIGNAL_ARRAY_SIZE ) {
 		FILE * fptr = fopen(R_ScaleneFile, "a");
 		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
-			fprintf(fptr, "elapsed: %d, ", R_SignalsArray[i].time);
+			fprintf(fptr, "%d, ", R_SignalsArray[i].time);
 			if(R_SignalsArray[i].sexp != NULL){
-				switch(TYPEOF(CAR(R_SignalsArray[i].sexp))) {
-					case LANGSXP:
-						if(strcmp(CHAR(PRINTNAME(CAR(CAR(R_SignalsArray[i].sexp)))),"::" ) == 0 || strcmp(CHAR(PRINTNAME(CAR(CAR(R_SignalsArray[i].sexp)))),":::" ) == 0 ) {
-							fprintf(fptr, "sexp: %s%s%s\n", CHAR(PRINTNAME(CADR(CAR(R_SignalsArray[i].sexp)))), CHAR(PRINTNAME(CAR(CAR(R_SignalsArray[i].sexp)))), CHAR(PRINTNAME(CADDR(CAR(R_SignalsArray[i].sexp)))) );
-						}
-						else {
-							fprintf(fptr, "LANGsxp, fix!\n" );
-						}
-						break;
-					case SYMSXP:
-						fprintf(fptr, "sexp: %s\n", CHAR(PRINTNAME(CAR(R_SignalsArray[i].sexp))));
-						break;
-					default:
-						fprintf(fptr, "Error, FIX!\n");
-						break;
-				}
-
+				print_sexp(R_SignalsArray[i].sexp, fptr);
+				fprintf(fptr, "\n");
 			}
 			else{
-				fprintf(fptr, "sexp: NULL \n");
+				fprintf(fptr, "NULL \n");
 			}
 		}
 
