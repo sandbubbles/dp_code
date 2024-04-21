@@ -1,17 +1,28 @@
-#i <- 0
-#while (1 < 2) {
-#    print(i)
-#    i <- i + 1
-#}
-#Total number of lines: 3000
-#Average: 10
-#Mode: 10
-#Median: 10
-#Number of values above 20: 5
+foo <- function() {
+    start_time <- Sys.time()
 
-# I also tried :
-compiler::enableJIT(0)
- while (1 < 2) {
-     4 + 3
- }
-# we need to disable jit otherwise the while loop will be optimized away
+    elapsed_time <- 0
+    while (elapsed_time < 1) {
+        result <- sum(1:100000000)
+        end_time <- Sys.time()
+        elapsed_time <- end_time - start_time
+    }
+
+}
+
+bar <- function () {
+    for (i in 1:5) {
+        result <- sum(rnorm(1:10000000))
+    }
+}
+
+
+..my_profile.. <- function (...) {
+    lapply(1:5, function(i) {
+        foo()
+        argtracer::trace_code()
+        #bar()
+    })
+}
+
+..my_profile..()

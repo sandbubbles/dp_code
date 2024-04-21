@@ -1,6 +1,6 @@
 # r/library/dplyr/doc/programming.R 
 ..my_profile.. <- function () {
-    for (i in 1:500) {
+    for (i in 1:50) {
         ## ----echo = FALSE, message = FALSE--------------------------------------------
     knitr::opts_chunk$set(collapse = T, comment = "#>")
         options(tibble.print_min = 4L, tibble.print_max = 4L)

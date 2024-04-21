@@ -9,7 +9,7 @@ foo <- function ( n ) {
     { 
         6 * 3
         i <- 1 
-        while (i < 1000000) {
+        while (i < 100000) {
             b <- foo(i) * 3
             i <- i + 1
             print(i)
