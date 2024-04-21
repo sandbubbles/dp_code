@@ -931,6 +931,8 @@ long long R_SubtractTime;
 #define MAX_SIGNAL_ARRAY_SIZE 10
 #define SIGNAL_INTERVAL 10000
 
+long long R_TotalSignalTime = 0;
+
 typedef struct {
     SEXP sexp;
     int time;
@@ -1026,13 +1028,14 @@ void print_map_entries() {
 	// Sort the array based on position value
     qsort(entries, HASH_COUNT(R_LANGSXPMap), sizeof(map_entry_struct*), compare_position);
 
-	fprintf(file, "line_number, langsxp, r_counter, c_counter\n");
+	fprintf(file, "line_number, langsxp, r_ms, c_ms, r_percent, c_percent \n");
 
     // Print the elements in the sorted order
     for (i = 0; i < HASH_COUNT(R_LANGSXPMap); i++) {
 		fprintf(file, "%d, ", entries[i]->value.line_number);
 		print_sexp(entries[i]->key, file);
-		fprintf(file, ", %d, %d\n", entries[i]->value.r_counter, entries[i]->value.c_counter);
+		fprintf(file, ", %d, %d", entries[i]->value.r_counter, entries[i]->value.c_counter);
+		fprintf(file, ", %f, %f\n", (((double) entries[i]->value.r_counter)/R_TotalSignalTime) * 100, (((double)entries[i]->value.c_counter)/R_TotalSignalTime) * 100);
     }
 
 	free(entries);
@@ -1060,19 +1063,18 @@ void reset_timer ( void ) {
 /* S - Flush buffer, and set the timer only after writing into the file */
 void postprocess_signal ( int* no_of_signals ) {
 	if ( (* no_of_signals) == MAX_SIGNAL_ARRAY_SIZE ) {
-		FILE * fptr = fopen(R_ScaleneFile, "a");
-		for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
-			fprintf(fptr, "%d, ", R_SignalsArray[i].time);
-			if(R_SignalsArray[i].sexp != NULL){
-				print_sexp(R_SignalsArray[i].sexp, fptr);
-				fprintf(fptr, "\n");
-			}
-			else{
-				fprintf(fptr, "NULL \n");
-			}
-		}
-
-		fclose(fptr);
+		//FILE * fptr = fopen(R_ScaleneFile, "a");
+		//for ( int i = 0; i < MAX_SIGNAL_ARRAY_SIZE; ++i ) {
+		//	fprintf(fptr, "%d, ", R_SignalsArray[i].time);
+		//	if(R_SignalsArray[i].sexp != NULL){
+		//		print_sexp(R_SignalsArray[i].sexp, fptr);
+		//		fprintf(fptr, "\n");
+		//	}
+		//	else{
+		//		fprintf(fptr, "NULL \n");
+		//	}
+		//}
+		//fclose(fptr);
 		(* no_of_signals) = 0;
 	}
 	GET_CURRENT_TIME_MS(R_SubtractTime);
@@ -1434,6 +1436,7 @@ SEXP eval(SEXP e, SEXP rho)
 			s->value.r_counter += SIGNAL_INTERVAL / 1000;
 			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
 			R_SignalsArray[no_of_signals].sexp = s->key;
+			R_TotalSignalTime += new_signal_time - R_SubtractTime;
 		}
 		no_of_signals ++;
     	R_GotSignal = 0;
