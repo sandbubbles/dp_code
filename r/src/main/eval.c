@@ -1093,7 +1093,6 @@ void make_map_from_AST (SEXP e, int line) {
 
 				counter_struct value = {.r_counter = 0, .c_counter = 0, .line_number = line_number};
 				update_map_entry(e, value);
-				make_map_from_AST(CAR(e), line_number); // Function name, so, hm, is it really nescessary to walk?
 
 				e = CDR(e);
 				int i = 1;
@@ -1108,7 +1107,7 @@ void make_map_from_AST (SEXP e, int line) {
 			else {
 				counter_struct value = {.r_counter = 0, .c_counter = 0, .line_number = line};
 				update_map_entry(e, value);
-				make_map_from_AST(CAR(e), line); // Function name, so, hm, is it really nescessary to walk?
+				make_map_from_AST(CAR(e), line);
 
 				e = CDR(e);
 				while (e != R_NilValue) {
