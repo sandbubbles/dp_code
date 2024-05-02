@@ -15,7 +15,7 @@ facti <- function (n) {
 }
 
 ..my_profile.. <- function (...) {
-    lapply(1:1000, function(i) {
+    lapply(1:10000, function(i) {
         lapply(1:50, function(i) {  
             facto(i)
             facti(i)

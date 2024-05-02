@@ -20,8 +20,7 @@ bar <- function () {
 ..my_profile.. <- function (...) {
     lapply(1:5, function(i) {
         foo()
-        argtracer::trace_code()
-        #bar()
+        bar()
     })
 }
 

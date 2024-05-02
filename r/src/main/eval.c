@@ -958,7 +958,7 @@ map_entry_struct* R_LANGSXPMap = NULL;
 /* S - Helper functions for my hash map */
 
 /* S - Adds an item if it is not already present, otherwise only updates the keys value */
-void add_map_entry(SEXP key, counter_struct value) {
+void update_map_entry(SEXP key, counter_struct value) {
 	map_entry_struct *s;
 	HASH_FIND_PTR(R_LANGSXPMap, key, s);
 	if (s == NULL) {
@@ -1092,7 +1092,7 @@ void make_map_from_AST (SEXP e, int line) {
 				int line_number = INTEGER(line_number_sexp)[0];
 
 				counter_struct value = {.r_counter = 0, .c_counter = 0, .line_number = line_number};
-				add_map_entry(e, value);
+				update_map_entry(e, value);
 				make_map_from_AST(CAR(e), line_number); // Function name, so, hm, is it really nescessary to walk?
 
 				e = CDR(e);
@@ -1107,7 +1107,7 @@ void make_map_from_AST (SEXP e, int line) {
 			}
 			else {
 				counter_struct value = {.r_counter = 0, .c_counter = 0, .line_number = line};
-				add_map_entry(e, value);
+				update_map_entry(e, value);
 				make_map_from_AST(CAR(e), line); // Function name, so, hm, is it really nescessary to walk?
 
 				e = CDR(e);
