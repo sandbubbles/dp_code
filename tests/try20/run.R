@@ -1,1 +1,1 @@
-source("../tests/try20/R-benchmark-25.R", keep.source = TRUE)
+source("tests/try20/R-benchmark-25.R", keep.source = TRUE)

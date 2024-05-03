@@ -24,4 +24,4 @@ bar <- function () {
     })
 }
 
-..my_profile..()
+..my_profile..(bar, foo)

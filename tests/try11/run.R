@@ -1,1 +1,1 @@
-source("../tests/try11/code.R", keep.source = TRUE)
+source("tests/try11/code.R", keep.source = TRUE)

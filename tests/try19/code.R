@@ -11,7 +11,7 @@ foo <- function(interval ) {
 
 
 ..my_profile.. <- function (...) {
-    lapply(1:5, function(i) {
+    lapply(1:1000, function(i) {
         foo(1)
         argtracer::trace_code(1000)
 
