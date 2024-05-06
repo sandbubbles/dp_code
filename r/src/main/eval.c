@@ -46,7 +46,7 @@ static SEXP bcEval(SEXP, SEXP, Rboolean);
 static Rboolean bc_profiling = FALSE;
 #endif
 
-static int R_Profiling = 1;
+static int R_Profiling = 0;
 
 #ifdef R_PROFILING
 
@@ -918,19 +918,21 @@ attribute_hidden void R_BCProtReset(R_bcstack_t *ptop)
 	    DECLNK_stack(ibcl_oldptop);			\
     } while (0)
 
+
+/* S - Macros, to be experimented with */
+#define MAX_SIGNAL_ARRAY_SIZE 10
+#define SIGNAL_INTERVAL 10000
+#define MICRO_IN_MS 1000
+#define MS_IN_S 1000
+
 /* S - Macro to get time since beginig of epoch or whatever */
 #define GET_CURRENT_TIME_MS(value) \
     do { \
         struct timeval tv; \
         gettimeofday(&tv, NULL); \
-        (value) = (((long long)tv.tv_sec) * 1000) + (tv.tv_usec / 1000); \
+        (value) = (((long long)tv.tv_sec) * MS_IN_S) + (tv.tv_usec / MICRO_IN_MS); \
     } while(0)
 long long R_SubtractTime;
-
-/* S - Macros, to be experimented with */
-#define MAX_SIGNAL_ARRAY_SIZE 10
-#define SIGNAL_INTERVAL 10000
-
 long long R_TotalSignalTime = 0;
 
 typedef struct {
@@ -1138,6 +1140,7 @@ map_entry_struct * get_current_entry () {
 
 	return NULL;
 }
+
 map_entry_struct * print_entry () {
 	// Only for debugging
 	RCNTXT *c;
@@ -1315,6 +1318,7 @@ SEXP eval(SEXP e, SEXP rho)
 			Then start the timer of signals.
 		*/
 		if (strcmp(CHAR(PRINTNAME(CAR(e))), "..my_profile.." ) == 0 && getenv("R_SCALENE") != NULL ) {
+			R_Profiling = 1;
 			SEXP s = e;
 			while (s != R_NilValue) {
 				if (TYPEOF(CAR(s)) == SYMSXP) {
@@ -1432,16 +1436,17 @@ SEXP eval(SEXP e, SEXP rho)
 			s = find_map_entry(e);
 		}
 		if ( s != NULL ) {
-			s->value.r_counter += SIGNAL_INTERVAL / 1000;
-			s->value.c_counter += (new_signal_time - R_SubtractTime) - SIGNAL_INTERVAL/1000;
+			long long q = SIGNAL_INTERVAL / MICRO_IN_MS;
+			long long T = new_signal_time - R_SubtractTime;
+			s->value.r_counter += q;
+			s->value.c_counter += T - q;
 			R_SignalsArray[no_of_signals].sexp = s->key;
-			R_TotalSignalTime += new_signal_time - R_SubtractTime;
+			R_TotalSignalTime += T;
 		}
 		no_of_signals ++;
     	R_GotSignal = 0;
 		postprocess_signal(& no_of_signals);
 	}
-	
     return (tmp);
 }
 
