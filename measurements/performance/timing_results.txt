@@ -1,0 +1,20 @@
+Processing directory: ./m01
+Prof, JIT0: 190.162027355 seconds
+Scal, JIT0: 182.511474618 seconds
+non, JIT0:  180.657615773 seconds
+Processing directory: ./m02
+Prof, JIT0: 47.017454920 seconds
+Scal, JIT0: 45.952946420 seconds
+non, JIT0:  44.881499020 seconds
+Processing directory: ./m03
+Prof, JIT0: 179.219905035 seconds
+Scal, JIT0: 171.263510204 seconds
+non, JIT0:  169.330578171 seconds
+Processing directory: ./m04
+Prof, JIT0: 22.323103014 seconds
+Scal, JIT0: 21.761282038 seconds
+non, JIT0:  21.056407337 
+Processing directory: ./m05
+Prof, JIT0: 38.958896711 seconds
+Scal, JIT0: 37.545160820 seconds
+non, JIT0:  36.789454840 seconds
